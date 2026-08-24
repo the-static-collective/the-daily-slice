@@ -6,6 +6,14 @@ Not as a blog. Not as another source-of-truth database. As a **breathing chronic
 
 ## Late edition
 
+### [The river under the river](the-river-under-the-river.md)
+
+A Storyship overlay split into two conscious crossings — Exodus as departure pressure and Jordan as arrival/admission pressure — and then a correction changed the picture: **Storyship is subconscious.** The ship is not the conscious traveler. It is the lower-band carrier moving memory, relation, motif, residue, and unresolved pressure beneath changed worlds while local projects retain authority over what becomes consequence.
+
+The same slice introduces **Corpus Colossum** as a deliberately provisional name for the accumulated body of attributable remains, with Free Graph as the explicit relational inspection surface: Corpus holds the stones; Free Graph keeps the roads between stones inspectable.
+
+Companion visual: [`The river under the river`](../../../../artifacts/2026-08-24/the-river-under-the-river.svg)
+
 ### [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
 
 The first live LSD run produced the first proper field report for the new chronicle, by way of a banana.
@@ -40,6 +48,10 @@ And now a second line:
 
 > **The Daily Slice keeps the record. The radio lets the record encounter the world again.**
 
+And a third:
+
+> **STORYSHIP dreams the crossing before the conscious layer knows what river it has reached.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -49,11 +61,14 @@ And now a second line:
 - what receipt should carry a broadcast consequence back into historical memory;
 - whether later RSS/newsletter machinery is justified by actual reading pressure;
 - whether "continuity without persistent identity" deserves the first post-founding durable thread;
-- whether hatch events need their own receipt vocabulary without enlarging Free Graph's five portable relations.
+- whether hatch events need their own receipt vocabulary without enlarging Free Graph's five portable relations;
+- whether the Storyship subconscious-carrier framing survives contact with project-native specimens;
+- whether `Corpus Colossum` becomes precise enough to deserve a durable term rather than remaining a useful mutation.
 
 ## Source roads
 
 - [`Daily Slice breathing chronicle design`](../../../../docs/superpowers/specs/2026-08-24-daily-slice-breathing-chronicle-design.md)
+- [The river under the river](the-river-under-the-river.md)
 - [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
 - [`Static Collective Radio — First-Listen Canon Slice`](https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md)
