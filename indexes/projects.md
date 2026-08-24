@@ -10,6 +10,23 @@ Inclusion means “appears in the historical record,” not “is governed by Da
 - Thread: [`../threads/daily-slice.md`](../threads/daily-slice.md)
 - First issue: [`2026-08-24`](../slices/2026/08/2026-08-24/index.md)
 - First radio connection: [`The Daily Slice learns to speak`](../slices/2026/08/2026-08-24/daily-slice-learns-to-speak.md)
+- Storyship subconscious-carrier field note: [`The river under the river`](../slices/2026/08/2026-08-24/the-river-under-the-river.md)
+
+## STORYSHIP / The Haunted Phonography
+
+- Project issue: [`the-haunted-phonography#14`](https://github.com/the-static-collective/the-haunted-phonography/issues/14)
+- Daily Slice interpretation: [`The river under the river`](../slices/2026/08/2026-08-24/the-river-under-the-river.md)
+- Daily Slice does not promote the Exodus/Jordan overlay, subconscious-carrier framing, or `Corpus Colossum` into Storyship canon.
+
+## Corpus OS
+
+- Repository: [`the-static-collective/corpus-os`](https://github.com/the-static-collective/corpus-os)
+- `Corpus Colossum` is currently only a Daily Slice working name and has no Corpus OS authority effect.
+
+## Free Graph
+
+- Repository: [`the-static-collective/free-graph`](https://github.com/the-static-collective/free-graph)
+- Daily Slice currently uses Free Graph as the explicit relational-inspection road in [`The river under the river`](../slices/2026/08/2026-08-24/the-river-under-the-river.md); this does not enlarge Free Graph's portable relation grammar.
 
 ## The Autodiscography / Static Collective Radio
 
