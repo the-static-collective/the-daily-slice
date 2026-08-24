@@ -6,6 +6,12 @@ Not as a blog. Not as another source-of-truth database. As a **breathing chronic
 
 ## Late edition
 
+### [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
+
+A revisit of the unfinished GitLab / PostHog / Cloudflare / Linear setup produced a subtraction rather than a backlog. Free Graph, WORLDSEED, Derek Derrick Dark, and Daily Slice have since grown native functions that absorb much of the old proposal.
+
+The revised boundary is: **native organs first; adapters only when real pressure appears.** GitLab remains useful as a deliberate foreign reconstruction specimen; PostHog should observe only genuinely live encounters; Cloudflare collapses to a small stateless public porch; Linear is removed until an actual coordination failure proves it is needed.
+
 ### [The river under the river](the-river-under-the-river.md)
 
 A Storyship overlay split into two conscious crossings — Exodus as departure pressure and Jordan as arrival/admission pressure — and then a correction changed the picture: **Storyship is subconscious.** The ship is not the conscious traveler. It is the lower-band carrier moving memory, relation, motif, residue, and unresolved pressure beneath changed worlds while local projects retain authority over what becomes consequence.
@@ -52,6 +58,10 @@ And a third:
 
 > **STORYSHIP dreams the crossing before the conscious layer knows what river it has reached.**
 
+And a fourth:
+
+> **Native organs first. Adapters only when a real pressure appears.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -63,11 +73,16 @@ And a third:
 - whether "continuity without persistent identity" deserves the first post-founding durable thread;
 - whether hatch events need their own receipt vocabulary without enlarging Free Graph's five portable relations;
 - whether the Storyship subconscious-carrier framing survives contact with project-native specimens;
-- whether `Corpus Colossum` becomes precise enough to deserve a durable term rather than remaining a useful mutation.
+- whether `Corpus Colossum` becomes precise enough to deserve a durable term rather than remaining a useful mutation;
+- which real public Room first justifies a Cloudflare porch;
+- which live encounter is first worth instrumenting with PostHog;
+- which bounded specimen deserves the first GitLab foreign-forge reconstruction;
+- whether any observed coordination failure ever justifies adding Linear.
 
 ## Source roads
 
 - [`Daily Slice breathing chronicle design`](../../../../docs/superpowers/specs/2026-08-24-daily-slice-breathing-chronicle-design.md)
+- [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
 - [The river under the river](the-river-under-the-river.md)
 - [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
