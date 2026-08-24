@@ -14,6 +14,12 @@ The returned candidate is deliberately generative: **the Static Collective does 
 
 ## Late edition
 
+### [The trace and the hidden edge](the-trace-and-the-hidden-edge.md)
+
+A Matrix trace discussion changed shape when attention moved from the red pill to the machine bug implanted in Neo. The useful abstraction is not merely "tracker": the bug behaves like an **unauthorized relation** attached to a node whose internal identity can remain intact. The candidate term is **parasite edge**.
+
+The slice pairs that with the red pill's consensual trace operation and research on perturbation-based causal discovery, backward fault tracing, and identifiability limits. The result is deliberately narrower than the metaphor: **node integrity is insufficient when relationship integrity is unknown.** Receipts can improve causal traceability without being allowed to become live capabilities.
+
 ### [Trust the process — the causal canon](trust-the-process-causal-canon.md)
 
 The familiar `receive → interpret → propose → test → admit/refuse → receipt → carry forward → receive again` progression changed shape when imagined as a sung round. Local lineages can remain sequential while the larger field occupies many causal phases at once. Receipts from earlier voices can return as conditions for later voices, turning repetition into history rather than mere periodicity.
@@ -90,6 +96,10 @@ And a sixth:
 
 > **Same song. Different measure. Shared history.**
 
+And a seventh:
+
+> **Node integrity is insufficient when relationship integrity is unknown.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -104,6 +114,9 @@ And a sixth:
 - whether `Corpus Colossum` becomes precise enough to deserve a durable term rather than remaining a useful mutation;
 - whether `Reality Bakers` survives enough actual practice to become durable vocabulary rather than a useful one-day metaphor;
 - whether the Causal Canon Principle survives project-native specimens as more than a powerful analogy;
+- whether `parasite edge` survives project-native security/continuity specimens as more than a Matrix-shaped metaphor;
+- whether capability horizons should enumerate inbound/outbound relations in addition to allowed actions;
+- how a receipt can preserve traceability while proving that live reachability was severed;
 - what minimum "score" must survive for lawful re-entry without the original performer;
 - which real public Room first justifies a Cloudflare porch;
 - which live encounter is first worth instrumenting with PostHog;
@@ -113,6 +126,7 @@ And a sixth:
 ## Source roads
 
 - [`Daily Slice breathing chronicle design`](../../../../docs/superpowers/specs/2026-08-24-daily-slice-breathing-chronicle-design.md)
+- [The trace and the hidden edge](the-trace-and-the-hidden-edge.md)
 - [Trust the process — the causal canon](trust-the-process-causal-canon.md)
 - [Reality Bakers](reality-bakers.md)
 - [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
