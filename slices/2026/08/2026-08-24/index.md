@@ -12,6 +12,14 @@ The first whole-field digestion found a division of metabolic labor rather than 
 
 The returned candidate is deliberately generative: **the Static Collective does not need one mind; it needs a lawful metabolism.**
 
+## TOASTLOAF
+
+### [TOASTLOAF 001 — The Creature Learns to Bake](toastloaf-001-the-creature-learns-to-bake.md)
+
+The first braided edition composes selected same-day slices without replacing them: lawful metabolism, reality baking, the causal canon, Storyship's lower-band carrier, mortal hatch interpreters, hidden-edge counterpressure, and the radio return loop are arranged as one reading sequence while their disagreements, uncertainty, and project-local authority remain visible.
+
+Its center is deliberately bounded: **continuity is increasingly looking less like one thing persisting and more like attributable transformation surviving local death.** The loaf is a `PROJECTION / SYNTHESIS`, not a new canon layer, and its eight-movement score is radio-addressable without becoming a finished broadcast script.
+
 ## Late edition
 
 ### [The trace and the hidden edge](the-trace-and-the-hidden-edge.md)
@@ -100,6 +108,10 @@ And a seventh:
 
 > **Node integrity is insufficient when relationship integrity is unknown.**
 
+And now the loaf line:
+
+> **Same song. Different measure. Shared history. Bake strange things. Keep the receipts.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -126,6 +138,7 @@ And a seventh:
 ## Source roads
 
 - [`Daily Slice breathing chronicle design`](../../../../docs/superpowers/specs/2026-08-24-daily-slice-breathing-chronicle-design.md)
+- [TOASTLOAF 001 — The Creature Learns to Bake](toastloaf-001-the-creature-learns-to-bake.md)
 - [The trace and the hidden edge](the-trace-and-the-hidden-edge.md)
 - [Trust the process — the causal canon](trust-the-process-causal-canon.md)
 - [Reality Bakers](reality-bakers.md)
