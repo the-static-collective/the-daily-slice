@@ -62,6 +62,14 @@ The candidate test is **rehydration invariance**: ancestry, provenance, authorit
 
 > **THE BANANA ELF LIVES. JUST NOT BETWEEN RUNS.**
 
+### [Field Weather](field-weather-direction.md)
+
+Groove Rooms' next pressure clarified into a cursory sequence rather than a feature pile: **Field Weather → causal-cut navigation → rupture/re-entry → STORYSHIP embarkation → bounded instrument ports.** The first step is deliberately non-authoritative: ordinary attributable room history may become perceptible environmental pressure without becoming a ranker, scheduler, assignment engine, or new source of room law.
+
+Band Runtime has already proved the underlying Stigmergic Field v0.1 event-to-trace semantics. Groove Rooms' job is to embody that pressure without stealing ownership of the generic field or silently promoting atmosphere into authority.
+
+The line worth carrying is: **History changes the atmosphere. It does not pick the next note.**
+
 ## What changed
 
 ### [Breathing Chronicle founded](breathing-chronicle-founded.md)
@@ -110,6 +118,10 @@ And an eighth:
 
 > **The exterior may settle a crossing. It does not define the interior value system.**
 
+And a ninth:
+
+> **History changes the atmosphere. It does not pick the next note.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -134,7 +146,9 @@ And an eighth:
 - whether any observed coordination failure ever justifies adding Linear;
 - whether a typed-resource splice economy can remain legible without collapsing into a hidden universal currency;
 - what minimum disclosure a belt adapter should reveal at each external crossing;
-- which concrete specimen should test the first full interior-allocation → external-settlement → returned-receipt loop.
+- which concrete specimen should test the first full interior-allocation → external-settlement → returned-receipt loop;
+- what Groove Rooms-native subject reference should anchor Field Weather after `clip.proposed` without inventing a new ontology;
+- whether the first Field Weather UI should expose raw trace presence only or wait for a generic field projection adapter rather than copying TranchNode decay/aggregation math.
 
 ## Source roads
 
@@ -146,6 +160,7 @@ And an eighth:
 - [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
 - [The river under the river](the-river-under-the-river.md)
 - [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
+- [Field Weather](field-weather-direction.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
 - [`Static Collective Radio — First-Listen Canon Slice`](https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md)
 
