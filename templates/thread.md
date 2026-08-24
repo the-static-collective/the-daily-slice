@@ -12,7 +12,7 @@ This thread links related historical records. Inclusion does not mean the linked
 
 ## Slices
 
-- YYYY-MM-DD — [slice title](../slices/...)
+- YYYY-MM-DD — `slice title` → `../slices/YYYY/MM/YYYY-MM-DD/<slug>.md`
 
 ## Current pressure
 
