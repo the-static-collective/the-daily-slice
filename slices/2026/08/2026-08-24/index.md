@@ -14,6 +14,12 @@ The returned candidate is deliberately generative: **the Static Collective does 
 
 ## Late edition
 
+### [Reality Bakers](reality-bakers.md)
+
+A joke found a useful boundary: the work is better described as **reality baking** than reality generation. Possibilities can be loosened, related, loaded with task-local capability, built, kicked by adversarial pressure, and tested — but none of those stages silently gains admission authority.
+
+The bakery rule is simple: **Bake strange things. Test whether they hold. Serve only what survives. Keep the fallen loaves.** Failed bakes remain evidence without being promoted into success.
+
 ### [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
 
 A revisit of the unfinished GitLab / PostHog / Cloudflare / Linear setup produced a subtraction rather than a backlog. Free Graph, WORLDSEED, Derek Derrick Dark, and Daily Slice have since grown native functions that absorb much of the old proposal.
@@ -70,6 +76,10 @@ And a fourth:
 
 > **Native organs first. Adapters only when a real pressure appears.**
 
+And a fifth:
+
+> **Bake strange things. Test whether they hold. Serve only what survives. Keep the fallen loaves.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -82,6 +92,7 @@ And a fourth:
 - whether hatch events need their own receipt vocabulary without enlarging Free Graph's five portable relations;
 - whether the Storyship subconscious-carrier framing survives contact with project-native specimens;
 - whether `Corpus Colossum` becomes precise enough to deserve a durable term rather than remaining a useful mutation;
+- whether `Reality Bakers` survives enough actual practice to become durable vocabulary rather than a useful one-day metaphor;
 - which real public Room first justifies a Cloudflare porch;
 - which live encounter is first worth instrumenting with PostHog;
 - which bounded specimen deserves the first GitLab foreign-forge reconstruction;
@@ -90,6 +101,7 @@ And a fourth:
 ## Source roads
 
 - [`Daily Slice breathing chronicle design`](../../../../docs/superpowers/specs/2026-08-24-daily-slice-breathing-chronicle-design.md)
+- [Reality Bakers](reality-bakers.md)
 - [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
 - [The river under the river](the-river-under-the-river.md)
 - [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
