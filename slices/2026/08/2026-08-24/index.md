@@ -14,6 +14,12 @@ The returned candidate is deliberately generative: **the Static Collective does 
 
 ## Late edition
 
+### [Trust the process — the causal canon](trust-the-process-causal-canon.md)
+
+The familiar `receive → interpret → propose → test → admit/refuse → receipt → carry forward → receive again` progression changed shape when imagined as a sung round. Local lineages can remain sequential while the larger field occupies many causal phases at once. Receipts from earlier voices can return as conditions for later voices, turning repetition into history rather than mere periodicity.
+
+The candidate principle is: **coherence does not require everybody to be in the same place; it requires their different places to remain in lawful relation.** The musical version is shorter: **same song, different measure, shared history.**
+
 ### [Reality Bakers](reality-bakers.md)
 
 A joke found a useful boundary: the work is better described as **reality baking** than reality generation. Possibilities can be loosened, related, loaded with task-local capability, built, kicked by adversarial pressure, and tested — but none of those stages silently gains admission authority.
@@ -80,6 +86,10 @@ And a fifth:
 
 > **Bake strange things. Test whether they hold. Serve only what survives. Keep the fallen loaves.**
 
+And a sixth:
+
+> **Same song. Different measure. Shared history.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -93,6 +103,8 @@ And a fifth:
 - whether the Storyship subconscious-carrier framing survives contact with project-native specimens;
 - whether `Corpus Colossum` becomes precise enough to deserve a durable term rather than remaining a useful mutation;
 - whether `Reality Bakers` survives enough actual practice to become durable vocabulary rather than a useful one-day metaphor;
+- whether the Causal Canon Principle survives project-native specimens as more than a powerful analogy;
+- what minimum "score" must survive for lawful re-entry without the original performer;
 - which real public Room first justifies a Cloudflare porch;
 - which live encounter is first worth instrumenting with PostHog;
 - which bounded specimen deserves the first GitLab foreign-forge reconstruction;
@@ -101,6 +113,7 @@ And a fifth:
 ## Source roads
 
 - [`Daily Slice breathing chronicle design`](../../../../docs/superpowers/specs/2026-08-24-daily-slice-breathing-chronicle-design.md)
+- [Trust the process — the causal canon](trust-the-process-causal-canon.md)
 - [Reality Bakers](reality-bakers.md)
 - [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
 - [The river under the river](the-river-under-the-river.md)
