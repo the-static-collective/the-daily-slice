@@ -32,6 +32,12 @@ A joke found a useful boundary: the work is better described as **reality baking
 
 The bakery rule is simple: **Bake strange things. Test whether they hold. Serve only what survives. Keep the fallen loaves.** Failed bakes remain evidence without being promoted into success.
 
+### [THE BELT](the-belt.md)
+
+An ETH-as-infrastructure thought inverted into a broader boundary model: keep the collective economy off-chain, typed, and internally coherent, then carry only the minimum state needed when crossing into Walmart, banks, the DMV, Ethereum, or whatever foreign system comes next.
+
+The candidate rule is: **the exterior may settle a crossing; it does not define the interior value system.** Money becomes one resource among many, exchange rates may remain local to specific events, and external rails become replaceable adapters rather than constitutional infrastructure.
+
 ### [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
 
 A revisit of the unfinished GitLab / PostHog / Cloudflare / Linear setup produced a subtraction rather than a backlog. Free Graph, WORLDSEED, Derek Derrick Dark, and Daily Slice have since grown native functions that absorb much of the old proposal.
@@ -100,6 +106,10 @@ And a seventh:
 
 > **Node integrity is insufficient when relationship integrity is unknown.**
 
+And an eighth:
+
+> **The exterior may settle a crossing. It does not define the interior value system.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -121,7 +131,10 @@ And a seventh:
 - which real public Room first justifies a Cloudflare porch;
 - which live encounter is first worth instrumenting with PostHog;
 - which bounded specimen deserves the first GitLab foreign-forge reconstruction;
-- whether any observed coordination failure ever justifies adding Linear.
+- whether any observed coordination failure ever justifies adding Linear;
+- whether a typed-resource splice economy can remain legible without collapsing into a hidden universal currency;
+- what minimum disclosure a belt adapter should reveal at each external crossing;
+- which concrete specimen should test the first full interior-allocation → external-settlement → returned-receipt loop.
 
 ## Source roads
 
@@ -129,6 +142,7 @@ And a seventh:
 - [The trace and the hidden edge](the-trace-and-the-hidden-edge.md)
 - [Trust the process — the causal canon](trust-the-process-causal-canon.md)
 - [Reality Bakers](reality-bakers.md)
+- [THE BELT](the-belt.md)
 - [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
 - [The river under the river](the-river-under-the-river.md)
 - [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
