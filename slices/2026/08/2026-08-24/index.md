@@ -4,6 +4,14 @@ The repository found its shape today.
 
 Not as a blog. Not as another source-of-truth database. As a **breathing chronicle**: a dated public witness layer for what the wider ecosystem was becoming.
 
+## DAILY DIGESTION
+
+### [DAILY DIGESTION 001 — The Creature Has a Stomach Now](daily-digestion-001-the-creature-has-a-stomach-now.md)
+
+The first whole-field digestion found a division of metabolic labor rather than a central mind: Vault preserves raw encounter, LSD generates without promotion, Free Graph keeps the roads, native projects test their own consequences, Daily Slice records the change, Autodisco sends expression back into encounter, and the human retains admission.
+
+The returned candidate is deliberately generative: **the Static Collective does not need one mind; it needs a lawful metabolism.**
+
 ## Late edition
 
 ### [Native organs, adapter garden v0.2](native-organs-adapter-garden-v02.md)
