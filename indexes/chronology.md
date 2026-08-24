@@ -6,4 +6,4 @@ A manual index of Daily Slice issues. This index is a navigation aid, not a cano
 
 ### August
 
-- [2026-08-24 — The Daily Slice](../slices/2026/08/2026-08-24/index.md) — Breathing Chronicle founded; in/out newsletter behavior named; first LSD field report split durable hatch-spec from mortal local interpreter.
+- [2026-08-24 — The Daily Slice](../slices/2026/08/2026-08-24/index.md) — Breathing Chronicle founded; in/out newsletter behavior named; first LSD field report split durable hatch-spec from mortal local interpreter; first radio return loop connected Daily Slice to Autodisco v20 / Static Collective Radio.
