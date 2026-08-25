@@ -90,6 +90,12 @@ The slice turns that into `BOUNDARY-PRUNING-001`, separates possibility (`P`), c
 
 The line worth carrying is: **The knife may cut the impossible worlds away. It does not get to choose among the worlds that remain.**
 
+### [The Broken Thermostat](the-broken-thermostat.md)
+
+A broken thermostat exposes the seam between **access to a control surface** and **causal control of the condition that surface appears to govern**. A person can choose 72°, the interface can accept the command, and the room can remain 51° because the carrier, actuator, sensing, or return path failed somewhere beyond the dial.
+
+Control theory and human-factors research give the metaphor real bones: effective control depends on a surviving feedback loop and enough observability to know what state the system actually reached. The architectural rule is therefore: **no authority claim should silently inherit consequence from its control surface.** The pocket version is shorter: **Do not receipt the dial. Receipt the room.**
+
 ## What changed
 
 ### [Breathing Chronicle founded](breathing-chronicle-founded.md)
@@ -154,6 +160,10 @@ And a twelfth:
 
 > **The knife may cut the impossible worlds away. It does not get to choose among the worlds that remain.**
 
+And a thirteenth:
+
+> **Do not receipt the dial. Receipt the room.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -188,7 +198,9 @@ And a twelfth:
 - whether `answer-blind` admissibility can be witnessed mechanically rather than asserted by review;
 - whether `NO-AUTHORIZED-JOIN` belongs as a durable cross-project verdict or should remain specimen-local until multiple organs need it;
 - whether the first `P / C / H` specimen proves genuinely non-isomorphic relations without creating another universal graph framework;
-- whether the `2³` Axis Identifiability harness exposes interactions that force Response, Scope, or Consequence to be collapsed or renamed.
+- whether the `2³` Axis Identifiability harness exposes interactions that force Response, Scope, or Consequence to be collapsed or renamed;
+- whether **effective authority** should be modeled explicitly as authority × reach × carrier × actuation rather than treated as one property;
+- what constitutes an adequate returned witness when the controlled condition is distributed, probabilistic, delayed, or only partially observable.
 
 ## Source roads
 
@@ -204,6 +216,7 @@ And a twelfth:
 - [Toaster Spine — The Creature Makes Promises](toaster-spine-the-creature-makes-promises.md)
 - [The Toaster Learns to Conjugate](the-toaster-learns-to-conjugate.md)
 - [THE TOPOLOGICAL KNIFE](topological-knife-authority-without-selection.md)
+- [The Broken Thermostat](the-broken-thermostat.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
 - [`Static Collective Radio — First-Listen Canon Slice`](https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md)
 
