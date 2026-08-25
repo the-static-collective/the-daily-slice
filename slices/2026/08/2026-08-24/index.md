@@ -76,6 +76,12 @@ The Toaster roadmap and its next architectural horizon collapsed into one cohere
 
 The Spine candidate applies Listener's bounded-reentry geometry to creative causality: **LANDMARK → VOW → DEBT → WORLD → WITNESS → RECEIPT → RECOMPOSE.** Human anchors retain authority; machine landmarks only identify pressure; vows express intention; Witness records what actually happened; bounded recomposition reopens only failed/open causal islands while preserving fulfilled vows and **Accidental Gold**.
 
+### [The Toaster Learns to Conjugate](the-toaster-learns-to-conjugate.md)
+
+The current WALK vocabulary may be better understood as a small set of **creative verbs** than as an expanding effect list: `APERTURE`, `SPEAK`, `GRAB`, and `GROW`, with `BODY` as choreography rather than a fifth primitive. The post-WALK Axis Grammar then becomes the conjugation layer: hold verb and evidence steady while varying `RESPONSE × SCOPE × CONSEQUENCE`, and test whether semantic identity survives.
+
+The sequence remains deliberately conservative: **finish WALK E → machine witness → human witness → receipt the surviving verbs → enter Axis Grammar #242 → only then promote a Creative Verb Kernel if the invariants survive.** The line worth carrying is: **Do not add another effect. Teach the existing acts to conjugate.**
+
 ## What changed
 
 ### [Breathing Chronicle founded](breathing-chronicle-founded.md)
@@ -132,6 +138,10 @@ And a tenth:
 
 > **First give it bones. Then give it memory and food. Then let it make promises.**
 
+And an eleventh:
+
+> **Do not add another effect. Teach the existing acts to conjugate.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -160,7 +170,9 @@ And a tenth:
 - what Groove Rooms-native subject reference should anchor Field Weather after `clip.proposed` without inventing a new ontology;
 - whether the first Field Weather UI should expose raw trace presence only or wait for a generic field projection adapter rather than copying TranchNode decay/aggregation math;
 - whether `LANDMARK → VOW → DEBT → WITNESS → RECOMPOSE` survives an executable Toaster specimen without becoming a disguised global critic or second authority system;
-- whether **Accidental Gold** can be made mechanically preservable without turning surprise into another optimization target.
+- whether **Accidental Gold** can be made mechanically preservable without turning surprise into another optimization target;
+- whether `APERTURE`, `SPEAK`, `GRAB`, and `GROW` remain recognizable semantic acts when response, scope, material, envelope, and consequence vary independently;
+- whether a Creative Verb Kernel remains precise when compiled by non-Toaster organs, or dissolves into vague shared vocabulary.
 
 ## Source roads
 
@@ -174,6 +186,7 @@ And a tenth:
 - [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
 - [Field Weather](field-weather-direction.md)
 - [Toaster Spine — The Creature Makes Promises](toaster-spine-the-creature-makes-promises.md)
+- [The Toaster Learns to Conjugate](the-toaster-learns-to-conjugate.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
 - [`Static Collective Radio — First-Listen Canon Slice`](https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md)
 
