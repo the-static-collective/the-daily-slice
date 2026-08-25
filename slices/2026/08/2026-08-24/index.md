@@ -82,6 +82,14 @@ The current WALK vocabulary may be better understood as a small set of **creativ
 
 The sequence remains deliberately conservative: **finish WALK E → machine witness → human witness → receipt the surviving verbs → enter Axis Grammar #242 → only then promote a Creative Verb Kernel if the invariants survive.** The line worth carrying is: **Do not add another effect. Teach the existing acts to conjugate.**
 
+### [THE TOPOLOGICAL KNIFE](topological-knife-authority-without-selection.md)
+
+A MADDCL0WN harvest returned seven apparently separate ideas and a sober pass compressed them into four candidate laws plus three methods. The strongest seam is **Admissibility Authority**: a trusted boundary may remove unlawful possibilities without selecting among the lawful survivors.
+
+The slice turns that into `BOUNDARY-PRUNING-001`, separates possibility (`P`), causality (`C`), and provenance/history (`H`) so their edges cannot silently impersonate one another, renames unproved nonconvergence to **NO-AUTHORIZED-JOIN**, and pairs Field Weather with L BRANCH as **pressure without command**. Axis Grammar also gets a stricter falsification harness: a binary `2³` experiment across response, scope, and consequence before those dials earn promotion into dimensions.
+
+The line worth carrying is: **The knife may cut the impossible worlds away. It does not get to choose among the worlds that remain.**
+
 ## What changed
 
 ### [Breathing Chronicle founded](breathing-chronicle-founded.md)
@@ -142,6 +150,10 @@ And an eleventh:
 
 > **Do not add another effect. Teach the existing acts to conjugate.**
 
+And a twelfth:
+
+> **The knife may cut the impossible worlds away. It does not get to choose among the worlds that remain.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -172,7 +184,11 @@ And an eleventh:
 - whether `LANDMARK → VOW → DEBT → WITNESS → RECOMPOSE` survives an executable Toaster specimen without becoming a disguised global critic or second authority system;
 - whether **Accidental Gold** can be made mechanically preservable without turning surprise into another optimization target;
 - whether `APERTURE`, `SPEAK`, `GRAB`, and `GROW` remain recognizable semantic acts when response, scope, material, envelope, and consequence vary independently;
-- whether a Creative Verb Kernel remains precise when compiled by non-Toaster organs, or dissolves into vague shared vocabulary.
+- whether a Creative Verb Kernel remains precise when compiled by non-Toaster organs, or dissolves into vague shared vocabulary;
+- whether `answer-blind` admissibility can be witnessed mechanically rather than asserted by review;
+- whether `NO-AUTHORIZED-JOIN` belongs as a durable cross-project verdict or should remain specimen-local until multiple organs need it;
+- whether the first `P / C / H` specimen proves genuinely non-isomorphic relations without creating another universal graph framework;
+- whether the `2³` Axis Identifiability harness exposes interactions that force Response, Scope, or Consequence to be collapsed or renamed.
 
 ## Source roads
 
@@ -187,6 +203,7 @@ And an eleventh:
 - [Field Weather](field-weather-direction.md)
 - [Toaster Spine — The Creature Makes Promises](toaster-spine-the-creature-makes-promises.md)
 - [The Toaster Learns to Conjugate](the-toaster-learns-to-conjugate.md)
+- [THE TOPOLOGICAL KNIFE](topological-knife-authority-without-selection.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
 - [`Static Collective Radio — First-Listen Canon Slice`](https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md)
 
