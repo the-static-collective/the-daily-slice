@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SupaBardo — Permeable Crossing Field</title>
+  <style>
+    :root {
+      --bg:#11100e;
+      --panel:#1b1916;
+      --panel2:#25211d;
+      --ink:#f1eadc;
+      --muted:#b8ad9c;
+      --gold:#e4b84d;
+      --teal:#74a9a4;
+      --rust:#c97858;
+      --line:#4a433b;
+      --ok:#9fc38b;
+      --bad:#d88373;
+      --radius:22px;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 85% 10%, rgba(228,184,77,.12), transparent 28%),
+        radial-gradient(circle at 15% 85%, rgba(116,169,164,.10), transparent 26%),
+        var(--bg);
+      color:var(--ink);
+      line-height:1.45;
+    }
+    a { color:var(--gold); }
+    .wrap { max-width:1220px; margin:0 auto; padding:42px 24px 64px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.14em; color:var(--gold); font-size:.78rem; font-weight:800; }
+    h1 { margin:.3rem 0 .5rem; font:700 clamp(2.2rem,5vw,4.4rem)/1.02 Georgia,serif; }
+    .sub { color:var(--muted); max-width:880px; font-size:1.05rem; }
+    .law {
+      margin:28px 0 24px;
+      padding:22px 24px;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:linear-gradient(135deg,rgba(228,184,77,.08),rgba(116,169,164,.05));
+    }
+    .law strong { display:block; font-size:1.45rem; letter-spacing:.02em; }
+    .law span { color:var(--muted); }
+    .tabs { display:flex; gap:10px; flex-wrap:wrap; margin:28px 0 18px; }
+    .tab {
+      border:1px solid var(--line); background:var(--panel); color:var(--ink);
+      border-radius:999px; padding:10px 16px; cursor:pointer; font-weight:700;
+    }
+    .tab.active { border-color:var(--gold); color:var(--gold); }
+    .screen { display:none; }
+    .screen.active { display:block; }
+    .grid3 { display:grid; grid-template-columns:1fr auto 1fr; gap:18px; align-items:stretch; }
+    .stack { display:grid; gap:12px; }
+    .card {
+      background:rgba(27,25,22,.92); border:1px solid var(--line); border-radius:18px; padding:18px;
+    }
+    .card h3 { margin:0 0 6px; font-size:1rem; }
+    .card p { margin:0; color:var(--muted); font-size:.92rem; }
+    .center {
+      min-width:250px; max-width:330px; display:flex; flex-direction:column; justify-content:center; gap:12px;
+      border:1px solid var(--gold); border-radius:26px; padding:24px; background:rgba(228,184,77,.05);
+    }
+    .center h2 { margin:0; font:700 1.7rem/1.1 Georgia,serif; }
+    .center .small { color:var(--muted); font-size:.9rem; }
+    .pillrow { display:flex; flex-wrap:wrap; gap:7px; }
+    .pill { border:1px solid var(--line); border-radius:999px; padding:6px 10px; font-size:.78rem; color:var(--muted); background:var(--panel2); }
+    .arrow { align-self:center; color:var(--gold); font-size:2rem; font-weight:900; }
+    .section { margin-top:24px; }
+    .section h2 { font:700 1.75rem/1.15 Georgia,serif; margin:0 0 12px; }
+    .twocol { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    ul { margin:8px 0 0 1.15rem; padding:0; }
+    li { margin:.35rem 0; }
+    .keep li::marker { color:var(--teal); }
+    .local li::marker { color:var(--rust); }
+    .states { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .state { border:1px solid var(--line); border-radius:18px; padding:18px; background:var(--panel); }
+    .state b { display:block; color:var(--gold); margin-bottom:6px; }
+    .occ { display:flex; gap:8px; flex-wrap:wrap; margin:16px 0 0; }
+    .occ span { border:1px solid var(--line); border-radius:8px; padding:7px 9px; font:700 .75rem ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--muted); }
+    .invariants { display:grid; grid-template-columns:1fr 1fr; gap:10px 18px; counter-reset:inv; }
+    .inv { counter-increment:inv; padding:12px 14px 12px 48px; border-left:2px solid var(--line); position:relative; background:rgba(255,255,255,.015); }
+    .inv:before { content:counter(inv, decimal-leading-zero); position:absolute; left:12px; top:12px; color:var(--gold); font:700 .8rem ui-monospace,SFMono-Regular,Menlo,monospace; }
+    .options { display:grid; gap:14px; }
+    .option { display:grid; grid-template-columns:150px 1fr auto; gap:18px; align-items:center; padding:18px; border:1px solid var(--line); border-radius:18px; background:var(--panel); }
+    .option .verdict { font-weight:800; }
+    .reject { color:var(--bad); }
+    .temp { color:var(--gold); }
+    .recommend { color:var(--ok); }
+    .ladder { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:18px; }
+    .step { border:1px solid var(--line); border-radius:14px; padding:14px; background:var(--panel2); }
+    .step b { color:var(--gold); }
+    .final-law { margin-top:24px; padding:24px; border-left:4px solid var(--teal); background:rgba(116,169,164,.07); border-radius:0 18px 18px 0; font:700 1.15rem/1.5 Georgia,serif; }
+    .footer { margin-top:36px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.84rem; }
+    @media (max-width:900px) {
+      .grid3 { grid-template-columns:1fr; }
+      .center { max-width:none; min-width:0; }
+      .arrow { transform:rotate(90deg); }
+      .states,.ladder { grid-template-columns:1fr 1fr; }
+      .option { grid-template-columns:1fr; }
+    }
+    @media (max-width:620px) {
+      .twocol,.invariants,.states,.ladder { grid-template-columns:1fr; }
+      .wrap { padding:28px 16px 48px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Daily Slice artifact · 2026-08-25</div>
+    <h1>SupaBardo</h1>
+    <p class="sub">A visual architecture specimen for a permeable Crossing Field: network-visible where useful, locally authoritative nowhere by default.</p>
+
+    <div class="law">
+      <strong>PERMEABLE MEMBRANE, NOT CENTRAL NERVOUS SYSTEM.</strong>
+      <span>Crossings travel. Authority does not. Store the crossing, not the canon. Consequence is re-admitted locally at every world boundary.</span>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="SupaBardo views">
+      <button class="tab active" data-screen="network" role="tab">Network shape</button>
+      <button class="tab" data-screen="state" role="tab">State law</button>
+      <button class="tab" data-screen="promotion" role="tab">Promotion test</button>
+    </div>
+
+    <section id="network" class="screen active">
+      <div class="grid3">
+        <div class="stack">
+          <div class="card"><h3>Human Witness</h3><p>Local SIGN / REFUSE / WITNESS semantics. Exact subject binding stays here.</p></div>
+          <div class="card"><h3>Groove Rooms</h3><p>Handoff and contribution crossings can enter the same protocol without inheriting signing semantics.</p></div>
+          <div class="card"><h3>Upper Room</h3><p>Presence, reading, encounter, and formation traces remain local evidence candidates.</p></div>
+          <div class="card"><h3>Toaster / ELF</h3><p>Proposal awaits human admit / refuse rather than silently acquiring consequence.</p></div>
+        </div>
+
+        <div class="center">
+          <div class="eyebrow">Portable Crossing Field</div>
+          <h2>SupaBardo</h2>
+          <p class="small">One local runtime adapter carrying bounded relation, not universal meaning.</p>
+          <div class="pillrow">
+            <span class="pill">Presence</span><span class="pill">Broadcast</span><span class="pill">Jurisdiction</span><span class="pill">Obligations</span><span class="pill">Timeouts</span><span class="pill">Decay</span>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="card"><h3>Typed CrossingExit / ExitBundle</h3><p>Vendor-neutral carrier of what crossed, what resolved, what remains unresolved, and what did not cross.</p></div>
+        </div>
+
+        <div class="stack">
+          <div class="card"><h3>Corpus OS</h3><p>May admit or refuse. It never inherits executable authority merely because an exit arrived.</p></div>
+          <div class="card"><h3>TranchNode / Git</h3><p>Durable carrier and historical trace after the liminal runtime is allowed to forget.</p></div>
+          <div class="card"><h3>Vault</h3><p>Evidence and artifact retention under owner-local policy.</p></div>
+          <div class="card"><h3>GitBook</h3><p>Projection and navigation. Crossing visibility is not automatic canon.</p></div>
+        </div>
+      </div>
+
+      <div class="section twocol">
+        <div class="card keep">
+          <h3>What becomes network-permeable</h3>
+          <ul>
+            <li>crossing reference + exact subject binding</li>
+            <li>participant relations + bounded capabilities</li>
+            <li>typed unresolved obligations</li>
+            <li>occurrence references + terminal condition</li>
+            <li>retention / decay policy + return route</li>
+            <li>vendor-neutral ExitBundle</li>
+          </ul>
+        </div>
+        <div class="card local">
+          <h3>What stays local</h3>
+          <ul>
+            <li>legal / human meaning of SIGN, ASSENT, REFUSE</li>
+            <li>identity and capacity judgments</li>
+            <li>trust admission and Action Warrants</li>
+            <li>canonical world-state</li>
+            <li>consequential interpretation</li>
+            <li>any assumption that crossing grants authority</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="final-law">Do not export a universal Human Witness receipt format as the network protocol. Export the smaller crossing carrier. Human Witness, Toaster, Groove Rooms, Storyship, and future worlds each interpret or seal that carrier under their own local law.</div>
+    </section>
+
+    <section id="state" class="screen">
+      <div class="section">
+        <h2>Ceremony verbs are not one mandatory linear FSM</h2>
+        <p class="sub">ENTER · FORM · WITNESS · WAIT · EXIT · DECAY describe occurrences. FORM and WITNESS may interleave, WAIT may recur, and multiple obligations may resolve independently.</p>
+      </div>
+
+      <div class="states">
+        <div class="state"><b>OPEN</b>Begun + attributable + unresolved.</div>
+        <div class="state"><b>RESOLVED</b>An attributable terminal occurrence exists.</div>
+        <div class="state"><b>EXPIRED</b>Time produced a terminal occurrence without synthetic success.</div>
+        <div class="state"><b>ABANDONED</b>Explicitly closed without pretending completion.</div>
+      </div>
+
+      <div class="occ" aria-label="Occurrence classes">
+        <span>ENTER</span><span>FORM</span><span>WITNESS</span><span>OBLIGATION_OPEN</span><span>WAIT</span><span>ACT</span><span>EXPORT</span><span>DECAY</span>
+      </div>
+
+      <div class="section">
+        <h2>Invariant wall</h2>
+        <div class="invariants">
+          <div class="inv">OPEN ≠ admitted.</div>
+          <div class="inv">Presence ≠ identity, attention, comprehension, or assent.</div>
+          <div class="inv">Permission ≠ authority.</div>
+          <div class="inv">Replay ≠ new occurrence.</div>
+          <div class="inv">Server acknowledgement ≠ human act.</div>
+          <div class="inv">Subject digest may not silently mutate mid-crossing.</div>
+          <div class="inv">Resolution requires an attributable terminal cause.</div>
+          <div class="inv">Decay must not destroy the only required carrier.</div>
+          <div class="inv">Export success ≠ destination admission.</div>
+          <div class="inv">Every destination performs its own local gate.</div>
+        </div>
+      </div>
+
+      <div class="final-law">Typed carrier rule: the exit declares what crossed—lineage, evidence references, obligations, terminal occurrence, subject binding—and explicitly what did not cross by default: authority, authenticated identity, legal capacity, comprehension, or destination consequence.</div>
+    </section>
+
+    <section id="promotion" class="screen">
+      <div class="options">
+        <div class="option"><strong>A · One global Supabase bus</strong><span>Easy discovery and reuse, but creates semantic gravity, broad blast radius, privacy pressure, and canon risk.</span><span class="verdict reject">REJECT</span></div>
+        <div class="option"><strong>B · Copy adapter everywhere</strong><span>Strong locality, but lifecycle semantics fork and drift across projects.</span><span class="verdict temp">TEMPORARILY TOLERABLE</span></div>
+        <div class="option"><strong>C · Protocol + local membranes</strong><span>Portable semantic contract with project-local adapters/runtimes. Supabase hosts a field without becoming the authority center.</span><span class="verdict recommend">RECOMMENDED</span></div>
+      </div>
+
+      <div class="section">
+        <h2>Promotion gate</h2>
+        <div class="ladder">
+          <div class="step"><b>1 · SB-001</b><br/>Human signature crossing inside Human Witness.</div>
+          <div class="step"><b>2 · MADDCL0WN</b><br/>Wrong digest, replay, conflict, timeout, refusal, export failure, downstream refusal.</div>
+          <div class="step"><b>3 · Foreign specimen</b><br/>A meaningfully different crossing reuses the same semantic law.</div>
+          <div class="step"><b>4 · Extract?</b><br/>Only if the portable invariant survives without Human-Witness-specific hacks.</div>
+        </div>
+      </div>
+
+      <div class="card section">
+        <h3>Preferred second proof</h3>
+        <p><strong>Toaster proposal → human admit / refuse.</strong> It deliberately removes signature/legal semantics. If OPEN → obligation → terminal occurrence → typed carrier → local admission still works, SupaBardo begins to prove itself as a network-level boundary rather than an elegant Human Witness adapter.</p>
+      </div>
+
+      <div class="final-law">A crossing may be shared. Its meaning is not. Nodes may meet in the same bounded field, but the field only carries attributable relations and typed evidence. Every world decides locally what, if anything, arrival changes.</div>
+    </section>
+
+    <div class="footer">
+      <strong>Status:</strong> architectural candidate / historical visual witness. No standalone SupaBardo repository, schema, migration, service, or authority promotion is constituted by this artifact.<br/>
+      <strong>Daily Slice:</strong> <a href="../../slices/2026/08/2026-08-25/supabardo-permeable-crossing-field.md">SupaBardo — Permeable Crossing Field</a><br/>
+      <strong>Project-owned source:</strong> <a href="https://github.com/the-static-collective/Human-Witness/blob/main/docs/superpowers/specs/2026-08-25-supabardo-crossing-field-design.md">Human-Witness SupaBardo Crossing Field Design</a>
+    </div>
+  </main>
+
+  <script>
+    const tabs = [...document.querySelectorAll('.tab')];
+    const screens = [...document.querySelectorAll('.screen')];
+    tabs.forEach(tab => tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.toggle('active', t === tab));
+      screens.forEach(s => s.classList.toggle('active', s.id === tab.dataset.screen));
+    }));
+  </script>
+</body>
+</html>
