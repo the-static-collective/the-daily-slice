@@ -208,7 +208,7 @@ The line worth carrying is:
 
 The interactive visual companion preserves the network topology, state law, invariant wall, extraction alternatives, and promotion gate:
 
-- [SupaBardo — Permeable Crossing Field interactive artifact](../../../../../artifacts/2026-08-25/supabardo-permeable-crossing-field.html)
+- [SupaBardo — Permeable Crossing Field interactive artifact](../../../../artifacts/2026-08-25/supabardo-permeable-crossing-field.html)
 
 ## Source roads
 
@@ -263,5 +263,5 @@ This Daily Slice records the network-permeability interpretation and visual spec
 
 - `DEEPENS` → [What Survives a Crossing, and What Must Be Constituted Anew?](what-survives-a-crossing.md)
 - `PROJECT-SOURCE` → [Human-Witness SupaBardo design](https://github.com/the-static-collective/Human-Witness/blob/main/docs/superpowers/specs/2026-08-25-supabardo-crossing-field-design.md)
-- `PRESENTS` → [interactive visual artifact](../../../../../artifacts/2026-08-25/supabardo-permeable-crossing-field.html)
+- `PRESENTS` → [interactive visual artifact](../../../../artifacts/2026-08-25/supabardo-permeable-crossing-field.html)
 - `PROMOTION-GATE` → second meaningfully different crossing must survive before standalone extraction is considered
