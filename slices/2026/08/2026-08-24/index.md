@@ -70,6 +70,12 @@ Band Runtime has already proved the underlying Stigmergic Field v0.1 event-to-tr
 
 The line worth carrying is: **History changes the atmosphere. It does not pick the next note.**
 
+### [Toaster Spine — The Creature Makes Promises](toaster-spine-the-creature-makes-promises.md)
+
+The Toaster roadmap and its next architectural horizon collapsed into one coherent sequence: **#224 current-spine promotion → reconcile #222 Video Eating + #218 memory rescue → #176 Linear v3 → only then widen into Toaster Spine experiments.** The body comes first; the new creative loop does not get to jump the executable queue.
+
+The Spine candidate applies Listener's bounded-reentry geometry to creative causality: **LANDMARK → VOW → DEBT → WORLD → WITNESS → RECEIPT → RECOMPOSE.** Human anchors retain authority; machine landmarks only identify pressure; vows express intention; Witness records what actually happened; bounded recomposition reopens only failed/open causal islands while preserving fulfilled vows and **Accidental Gold**.
+
 ## What changed
 
 ### [Breathing Chronicle founded](breathing-chronicle-founded.md)
@@ -122,6 +128,10 @@ And a ninth:
 
 > **History changes the atmosphere. It does not pick the next note.**
 
+And a tenth:
+
+> **First give it bones. Then give it memory and food. Then let it make promises.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -148,7 +158,9 @@ And a ninth:
 - what minimum disclosure a belt adapter should reveal at each external crossing;
 - which concrete specimen should test the first full interior-allocation → external-settlement → returned-receipt loop;
 - what Groove Rooms-native subject reference should anchor Field Weather after `clip.proposed` without inventing a new ontology;
-- whether the first Field Weather UI should expose raw trace presence only or wait for a generic field projection adapter rather than copying TranchNode decay/aggregation math.
+- whether the first Field Weather UI should expose raw trace presence only or wait for a generic field projection adapter rather than copying TranchNode decay/aggregation math;
+- whether `LANDMARK → VOW → DEBT → WITNESS → RECOMPOSE` survives an executable Toaster specimen without becoming a disguised global critic or second authority system;
+- whether **Accidental Gold** can be made mechanically preservable without turning surprise into another optimization target.
 
 ## Source roads
 
@@ -161,6 +173,7 @@ And a ninth:
 - [The river under the river](the-river-under-the-river.md)
 - [Banana elf survives sobriety](banana-elf-survives-sobriety.md)
 - [Field Weather](field-weather-direction.md)
+- [Toaster Spine — The Creature Makes Promises](toaster-spine-the-creature-makes-promises.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
 - [`Static Collective Radio — First-Listen Canon Slice`](https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md)
 
