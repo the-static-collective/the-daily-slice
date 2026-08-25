@@ -14,6 +14,16 @@ The slice keeps the six ideas typed separately, proposes `HORIZON-RECEIPT-001` a
 
 The line worth carrying is: **continuity should survive movement without smuggling consequence across the boundary.**
 
+### [SupaBardo — Permeable Crossing Field](supabardo-permeable-crossing-field.md)
+
+The Human-Witness SupaBardo specimen was widened into a candidate network shape without promoting it into infrastructure: **portable Crossing Field protocol + local runtimes**, not one global Supabase bus. The slice separates ceremony verbs from lifecycle state, introduces the smaller `CrossingExit / ExitBundle` carrier idea, and keeps meaning, authority, identity/capacity judgments, and destination consequence local.
+
+The promotion gate stays hard: SB-001 first, adversarial survival second, then one materially different foreign specimen—preferably **Toaster proposal → human admit/refuse**—before a standalone SupaBardo repo is considered.
+
+The line worth carrying is: **A crossing may be shared. Its meaning is not.**
+
+[Interactive visual artifact](../../../../artifacts/2026-08-25/supabardo-permeable-crossing-field.html)
+
 ## Boundary grammar / negative space
 
 ### [Never Let “Same” or “Nothing” Cross Untyped](never-let-same-or-nothing-cross-untyped.md)
