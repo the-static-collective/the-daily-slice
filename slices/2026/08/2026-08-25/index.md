@@ -14,6 +14,16 @@ The slice keeps the six ideas typed separately, proposes `HORIZON-RECEIPT-001` a
 
 The line worth carrying is: **continuity should survive movement without smuggling consequence across the boundary.**
 
+## Boundary grammar / negative space
+
+### [Never Let “Same” or “Nothing” Cross Untyped](never-let-same-or-nothing-cross-untyped.md)
+
+The crossing frontier sharpens into a four-question boundary grammar: **what survived, why absent, whose horizon, and what was born here?** The slice joins conservation claims to typed negative space so that neither continuity nor absence can gain meaning by losing provenance.
+
+It introduces the candidate **Boundary Ledger** and keeps the schema deliberately unpromoted: account for what carried, what did not, why, what remains unknown, and what was constituted locally.
+
+The line worth carrying is: **A system may forget detail. It may not forget that it forgot.**
+
 ## Seedbank / ELF frontier
 
 ### [THE SEEDBANK — ELF-OFF-A-SHELF](the-seedbank-elf-off-a-shelf.md)
