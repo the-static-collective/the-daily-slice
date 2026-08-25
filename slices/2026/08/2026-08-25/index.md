@@ -13,3 +13,11 @@ A six-part idea harvest found one recurring question beneath Horizon Receipt, Op
 The slice keeps the six ideas typed separately, proposes `HORIZON-RECEIPT-001` as the first portable seed, sends the larger question to Free Graph for cross-project falsification, and explicitly refuses to promote the whole braid into a universal law before foreign specimens survive.
 
 The line worth carrying is: **continuity should survive movement without smuggling consequence across the boundary.**
+
+## Seedbank / ELF frontier
+
+### [THE SEEDBANK — ELF-OFF-A-SHELF](the-seedbank-elf-off-a-shelf.md)
+
+The Vault flips from archive to **seedbank**: ARK materials carry viable, attributable difference; Storyship witnesses the crossing; Eve becomes a germination chamber; one Eve session becomes one mortal ELF; and authority remains locally granted rather than traveling silently with knowledge or capability.
+
+The line worth carrying is: **The Ark does not preserve the creature. The Ark preserves enough lawful difference for life to happen again.**
