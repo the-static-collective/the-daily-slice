@@ -38,6 +38,13 @@ Inclusion means “appears in the historical record,” not “is governed by Da
 - Likely radio implementation surface: [`The-AutodiscoV.20.-question-marks-/FIRST-LISTEN-RADIO.md`](https://github.com/the-static-collective/The-AutodiscoV.20.-question-marks-/blob/main/FIRST-LISTEN-RADIO.md)
 - This index does not promote the implementation repo above the canonical radio contract.
 
+## Derek Derrick Dark
+
+- Repository: [`the-static-collective/DerekDerrikDark`](https://github.com/the-static-collective/DerekDerrikDark)
+- Daily Slice candidate: [`THE CENTER ENTERS THE RUNTIME`](../slices/2026/08/2026-08-25/the-center-enters-the-runtime.md)
+- Continuity thread: [`Proximity / Continuity / Logos`](../threads/proximity-continuity-logos.md)
+- The slice proposes `COMPILE-FROM-WITHIN` as a DDD puzzle candidate only. DDD runtime authority remains in the project repository and no exit relation is admitted merely by appearing in Daily Slice.
+
 ## Static Collective GitBook
 
 Referenced as the curated orientation surface. GitBook promotion from Daily Slice remains explicit rather than automatic.
