@@ -67,3 +67,11 @@ The proximity thread mutates into an explicitly typed hypothetical excavation: c
 The computational braid then turns positive: distributed historical grammar, the Logos entering the recursive carrier, the **Obi-Wan containment reversal**, embodied Logos returned to Origin, Kingdom as a new recursion, and reverse ABRACADABRA as a seed grammar that grows while preserving a small invariant.
 
 The lines worth carrying are: **The patch does not have to get bigger. The groove does. The repair reaches the compiler. The seed contains a relation capable of becoming a world.**
+
+## Generation / pattern inheritance frontier
+
+### [GENERATION / GENERATION — What a prior state succeeds in bringing forth](generation-generation.md)
+
+Holding the trauma-loop model in one hand and biblical generation language in the other, this supper slice distinguishes **generation as what is brought forth** (`toledot`) from **generation as the people who carry what came before** (`dor`). Psalm 78 becomes an anti-loop witness: testimony crosses so that the next generation does not simply reenact the fathers; Judges shows the failure case when witness does not cross; Ezekiel and Jeremiah preserve the distinction between inherited consequence and inherited guilt; Matthew and John turn toward new genesis, new source, and changed generation rather than erased history.
+
+The line worth carrying is: **A generation is what a prior state succeeds in generating. What crosses matters because what crosses may become capable of generating again.**
