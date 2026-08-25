@@ -21,3 +21,11 @@ The line worth carrying is: **continuity should survive movement without smuggli
 The Vault flips from archive to **seedbank**: ARK materials carry viable, attributable difference; Storyship witnesses the crossing; Eve becomes a germination chamber; one Eve session becomes one mortal ELF; and authority remains locally granted rather than traveling silently with knowledge or capability.
 
 The line worth carrying is: **The Ark does not preserve the creature. The Ark preserves enough lawful difference for life to happen again.**
+
+## Relational continuity / Hugh Jackman frontier
+
+### [Hugh Jackman Keeps Coming Back](hugh-jackman-keeps-coming-back.md)
+
+A ridiculous cultural witness turns out to expose a serious continuity seam: Hugh-Jackman-as-Wolverine behaves like a durable relation that survives changing timelines, franchise architecture, local deaths, and repeated instantiation without reducing continuity to either endpoint alone.
+
+The line worth carrying is: **Maybe the edge between them is the immortal part.**
