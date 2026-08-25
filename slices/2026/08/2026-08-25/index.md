@@ -49,3 +49,13 @@ The line worth carrying is: **The Ark does not preserve the creature. The Ark pr
 A ridiculous cultural witness turns out to expose a serious continuity seam: Hugh-Jackman-as-Wolverine behaves like a durable relation that survives changing timelines, franchise architecture, local deaths, and repeated instantiation without reducing continuity to either endpoint alone.
 
 The line worth carrying is: **Maybe the edge between them is the immortal part.**
+
+## Proximity / Logos / compile-from-within frontier
+
+### [THE CENTER ENTERS THE RUNTIME](the-center-enters-the-runtime.md)
+
+A Genesis → Jesus → Logos thread reframes rupture as a proximity problem: disobedience breaks trust, fear turns divine presence into perceived threat, hiding increases distance, repentance reverses direction, and life remains bound to communion with its source. Adam/Christ continuity then matters because the repair occurs inside the same human story rather than replacing it.
+
+Borrowing computational language explicitly as analogy, the slice names the incarnation shape: **the ordering principle compiles into the runtime**. From there it proposes a Derek Derrick Dark puzzle law: the resident should not escape by receiving an external master key, but by reconstructing enough attributable ordering relation from inside the world that the world can lawfully constitute the exit.
+
+The line worth carrying is: **The Center enters the runtime. The resident escapes when the world can lawfully express the door from inside.**
