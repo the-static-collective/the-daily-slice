@@ -96,6 +96,24 @@ A broken thermostat exposes the seam between **access to a control surface** and
 
 Control theory and human-factors research give the metaphor real bones: effective control depends on a surviving feedback loop and enough observability to know what state the system actually reached. The architectural rule is therefore: **no authority claim should silently inherit consequence from its control surface.** The pocket version is shorter: **Do not receipt the dial. Receipt the room.**
 
+### [The Thing Between Leaving and Returning](the-thing-between-leaving-and-returning.md)
+
+A Free Graph roam found the same seam independently in the Causal Canon, Lawful Resumability, Celestial Delay Witness, and Acoustic Loci: a witnessed departure does not need to disappear from the world model merely because its terminal disposition is not known yet.
+
+The candidate is intentionally narrow: **a witnessed, attributable departure may remain visible as an `open crossing` while unresolved, without inheriting any destination consequence.** Return then looks less like restoring an old snapshot and more like lawfully continuing or closing an older causal edge across a changed world.
+
+### [World Cuts Have Channels](world-cuts-have-channels.md)
+
+Distributed-systems theory supplies an unusually exact control. Lamport's happened-before relation gives causal partial order without requiring one privileged global now, and Chandy–Lamport distributed snapshots include communication-channel state so messages in transit are not forced into either nonexistence or already-received status.
+
+The candidate refinement is therefore: **a causally adequate world-cut may need to expose open channel state in addition to constituted local occurrences and completed dispositions.** The slice explicitly keeps this as a technical control analogue, not proof of a universal metaphysical law.
+
+### [OPEN-CROSSING-001 — Do Not Promote the Packet](open-crossing-001.md)
+
+The open-crossing idea now has a falsification harness. Three fresh readers receive the same frozen outbound specimen: a completed-only model lets the packet disappear, an accidental-promotion model invents destination receipt, and an open-crossing model must preserve `departed + attributable + unresolved` while granting no destination authority.
+
+The test then closes the crossing under admitted, refused, lost, timed-out, and counterfeit-return cases. The rule is severe: **preserve more information than model A, invent less consequence than model B, and reject counterfeit closure.** If that cannot survive Foreign Forge, Free Graph, and a very different re-entry embodiment, the primitive does not promote.
+
 ## What changed
 
 ### [Breathing Chronicle founded](breathing-chronicle-founded.md)
@@ -164,6 +182,18 @@ And a thirteenth:
 
 > **Do not receipt the dial. Receipt the room.**
 
+And a fourteenth:
+
+> **Unresolved is not a hole. It is a disposition.**
+
+And a fifteenth:
+
+> **World cuts have channels.**
+
+And a sixteenth:
+
+> **Do not promote the packet. Keep the crossing open until something lawfully closes it.**
+
 ## Still unresolved
 
 - how much metadata real use actually needs;
@@ -200,7 +230,11 @@ And a thirteenth:
 - whether the first `P / C / H` specimen proves genuinely non-isomorphic relations without creating another universal graph framework;
 - whether the `2³` Axis Identifiability harness exposes interactions that force Response, Scope, or Consequence to be collapsed or renamed;
 - whether **effective authority** should be modeled explicitly as authority × reach × carrier × actuation rather than treated as one property;
-- what constitutes an adequate returned witness when the controlled condition is distributed, probabilistic, delayed, or only partially observable.
+- what constitutes an adequate returned witness when the controlled condition is distributed, probabilistic, delayed, or only partially observable;
+- whether `open crossing` survives three materially different project owners without collapsing into generic pending-state vocabulary;
+- what owner-local evidence is sufficient to distinguish `lost` from merely `not yet returned`;
+- how late attributable return after timeout should bear on a historically valid timeout without silently rewriting it;
+- whether a world-cut should expose all open crossings or only those still relevant to the cut's declared scope.
 
 ## Source roads
 
@@ -217,6 +251,9 @@ And a thirteenth:
 - [The Toaster Learns to Conjugate](the-toaster-learns-to-conjugate.md)
 - [THE TOPOLOGICAL KNIFE](topological-knife-authority-without-selection.md)
 - [The Broken Thermostat](the-broken-thermostat.md)
+- [The Thing Between Leaving and Returning](the-thing-between-leaving-and-returning.md)
+- [World Cuts Have Channels](world-cuts-have-channels.md)
+- [OPEN-CROSSING-001 — Do Not Promote the Packet](open-crossing-001.md)
 - founding design commit `3721ea68ccc12360d4517a686cbaa2b41a93b06a`
 - [`Static Collective Radio — First-Listen Canon Slice`](https://github.com/the-static-collective/the-autodisco/blob/main/canon/FIRST-LISTEN-RADIO.md)
 
