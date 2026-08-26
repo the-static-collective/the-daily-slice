@@ -37,3 +37,11 @@ potentially enormous expansion
 From that comes the candidate law: **semantic compression is always relative to a world**, and the developmental version: **world formation = growing the decompressor**. The slice adds a second dimension—world formation also grows the space of lawful next moves—then folds in `Air Moved`, White → Prism as a corrective move, PPFT as a low-input/high-structure witness, the Chinese farmer as causality sung in a round, and a much narrower Storyship specification: carry enough attributable formation that another suitable world can learn how to read the seed again.
 
 The line worth carrying is: **Do not make the seed contain the world. Grow a world that knows how to read the seed.**
+
+## Field / path / glyph
+
+### [THE FIELD IS NOT THE MESSAGE](the-field-is-not-the-message.md)
+
+A full ALEX PEEL through permeability, discernment, occult symbol systems, Sefer Yetzirah, Abracadabra, Leonardo, tobacco chemistry, and the Mandelbrot set strips away the master-code overclaims and leaves a harder relational grammar: `FIELD ≠ PATH ≠ GLYPH ≠ MEANING ≠ AUTHORITY`. The 231-gate letter wheel becomes a clean relation-field specimen; permutation adds formation order; later Tree-of-Life reception exposes role drift when the same symbolic inventory moves from element to path-label; Abulafia makes symbol manipulation executable through voice, breath, body, and attention; and Mandelbrot supplies the rigorous control—tiny recurrence law, enormous expression, exact replay, boundary-sensitive futures. The run also returns a concrete ALEX improvement: add **Transformation Trace**, role-tag representations before interpreting them, search operations before shapes, freeze predictions early, and pressure beautiful correspondences against nulls.
+
+The line worth carrying is: **A glyph is not necessarily a picture of the field. It may be a compressed receipt of a lawful path through it.**
