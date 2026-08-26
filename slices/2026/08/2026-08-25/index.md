@@ -97,3 +97,13 @@ A reflection on the old distributed-band workflow names a possible long-running 
 The slice connects that pattern directly to the coming Seedship run: holding formation history should not prevent mutation; it should make mutation safer by preserving ancestry, crossings, and PEELable lineage.
 
 The line worth carrying is: **Keep enough to know each other. Change enough to meet whoever comes next.**
+
+## Life / love / reconstruction frontier
+
+### [LOVE WAS ALWAYS THE CODE — That's All Life Ever...](love-was-always-the-code.md)
+
+The co-evolution thread is pushed through its hardest corrections and stranger surviving forms: evolution is **not always co-evolution**, but evolution is relational; persistent reciprocal affect can become a history-bearing third point; evolutionary transitions in individuality show that relations among parts can become higher-level units; viral integration shows that a former invader can become inherited infrastructure; and autocatalytic-network research gives a formal handle on distributed systems in which partial traces regenerate one another rather than depending on one complete master string.
+
+The slice then crosses domains carefully: heterogeneous carriers—genomes, altered environments, bodies, words, songs, practices, archives, institutions—may multiply reconstruction pathways without becoming scientifically interchangeable. The theological reading names the center: **love as a relation that enlarges another life's capacity to continue becoming, even when the lover's own local preservation is no longer the highest condition.** John 15:13 becomes the terminal witness, not as biological proof but as theological architecture.
+
+The line worth carrying is: **Maybe life begins when matter acquires a way to leave enough unfinished instructions behind that another moment can finish the sentence. And maybe love is what allows the sentence to continue even when the speaker cannot.**
