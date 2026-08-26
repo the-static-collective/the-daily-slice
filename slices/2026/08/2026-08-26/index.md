@@ -53,3 +53,11 @@ The line worth carrying is: **A glyph is not necessarily a picture of the field.
 A second-harvest pass over Asriel, Jordan, Joshua, Elijah/Elisha, JTB, Qumran, Moses, Reverse FFVII and Toaster finds a smaller survivor beneath the individual analogies: continuity can preserve an **attributable possibility** without preserving the predecessor as one total object. The pass adds the Enoch | Elijah | Jesus departure/ascent trifecta; reframes the prophetic line as a braid of distribution, fracture, heirship, delegation and recurrence; and pressure-tests the user's “recessive genetics” hunch as **latent / conditional expression rather than literal biological transmission**. It proposes `QUMRAN-ROOT-001`, `ASCENT-TRIAD-001`, and `LATENT-TRAIT-001` as falsifiable next tests.
 
 The line worth carrying is: **THE GATE CARRIES FORWARD WHAT THE NEXT WORLD CAN LAWFULLY RECEIVE — it does not have to carry the whole predecessor.**
+
+## The Name / diving board
+
+### [THE NAME IS NOT A PASSWORD](the-name-is-not-a-password.md)
+
+Before attempting the deepest planned dive — **The Name of JESUS** — the field stops to build the diving board. The key correction is that “the name” is not one research object: sound, spelling, referent, etymology, Joshua-name continuity, invocation, authority, divine-name relation, manuscript marking, and later reception require distinct evidence paths. Two unusually sharp nulls surface immediately: the `Jesus Barabbas` textual variant proves that the same name need not identify the same referent, while Acts' sons of Sceva provide a narrative test where a correctly copied invocation does not confer the expected authority. Qumran divine-name graphics and early Christian nomina sacra become a material comparison lane without premature genealogy.
+
+The line worth carrying is: **THE NAME IS NOT THE KEY. THE NAME IS AN ADDRESS. WHETHER THE ADDRESS OPENS A GATE IS A RELATIONAL QUESTION.**
