@@ -61,3 +61,13 @@ The line worth carrying is: **THE GATE CARRIES FORWARD WHAT THE NEXT WORLD CAN L
 Before attempting the deepest planned dive — **The Name of JESUS** — the field stops to build the diving board. The key correction is that “the name” is not one research object: sound, spelling, referent, etymology, Joshua-name continuity, invocation, authority, divine-name relation, manuscript marking, and later reception require distinct evidence paths. Two unusually sharp nulls surface immediately: the `Jesus Barabbas` textual variant proves that the same name need not identify the same referent, while Acts' sons of Sceva provide a narrative test where a correctly copied invocation does not confer the expected authority. Qumran divine-name graphics and early Christian nomina sacra become a material comparison lane without premature genealogy.
 
 The line worth carrying is: **THE NAME IS NOT THE KEY. THE NAME IS AN ADDRESS. WHETHER THE ADDRESS OPENS A GATE IS A RELATIONAL QUESTION.**
+
+## Sinai autograph / left-tangent control
+
+### [THE NAME WRITES ITSELF](the-name-writes-itself.md)
+
+A gold-star correction makes the Name board stranger and more rigorous. Within the Torah's own narrative, the first stone tablets are the **work of God** and their inscription the **writing of God**; the Decalogue itself contains `YHWH`, so the narrative depicts God authoring a stone artifact that includes God's own Name. The replacement tablets then replay the prior words under changed provenance: Moses cuts the substrate; YHWH writes the text. This becomes `SINAI-AUTOGRAPH-001` / `DIVINE-REPLAY-001`: same or replayed message does not erase artifact lineage. The evidence cliff remains absolute—no tablets survive, and no original Sinai glyph forms can be recovered from later Paleo-Hebrew or other script traditions.
+
+The same slice preserves the day's hard-left tangent: modern Jesus/coffee culture as a normalization machine. Morning schedules, hospitality, dry evangelical alcohol norms, third-place coffeehouse culture, specialty-coffee aesthetics, church-plant strategy, and productivity culture stack until a psychoactive stimulant becomes almost invisible infrastructure. The research question is not whether coffee is “sinful,” but **how a community decides which dependencies become visible enough to moralize.**
+
+The line worth carrying is: **THE NAME WAS WRITTEN; THE HANDWRITING IS LOST. THE COFFEE IS EVERYWHERE; THE DRUG BECAME INVISIBLE.**
