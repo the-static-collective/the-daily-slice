@@ -45,3 +45,11 @@ The line worth carrying is: **Do not make the seed contain the world. Grow a wor
 A full ALEX PEEL through permeability, discernment, occult symbol systems, Sefer Yetzirah, Abracadabra, Leonardo, tobacco chemistry, and the Mandelbrot set strips away the master-code overclaims and leaves a harder relational grammar: `FIELD ≠ PATH ≠ GLYPH ≠ MEANING ≠ AUTHORITY`. The 231-gate letter wheel becomes a clean relation-field specimen; permutation adds formation order; later Tree-of-Life reception exposes role drift when the same symbolic inventory moves from element to path-label; Abulafia makes symbol manipulation executable through voice, breath, body, and attention; and Mandelbrot supplies the rigorous control—tiny recurrence law, enormous expression, exact replay, boundary-sensitive futures. The run also returns a concrete ALEX improvement: add **Transformation Trace**, role-tag representations before interpreting them, search operations before shapes, freeze predictions early, and pressure beautiful correspondences against nulls.
 
 The line worth carrying is: **A glyph is not necessarily a picture of the field. It may be a compressed receipt of a lawful path through it.**
+
+## REGLEAN / gate continuity
+
+### [THE GATE CARRIES FORWARD](the-gate-carries-forward.md)
+
+A second-harvest pass over Asriel, Jordan, Joshua, Elijah/Elisha, JTB, Qumran, Moses, Reverse FFVII and Toaster finds a smaller survivor beneath the individual analogies: continuity can preserve an **attributable possibility** without preserving the predecessor as one total object. The pass adds the Enoch | Elijah | Jesus departure/ascent trifecta; reframes the prophetic line as a braid of distribution, fracture, heirship, delegation and recurrence; and pressure-tests the user's “recessive genetics” hunch as **latent / conditional expression rather than literal biological transmission**. It proposes `QUMRAN-ROOT-001`, `ASCENT-TRIAD-001`, and `LATENT-TRAIT-001` as falsifiable next tests.
+
+The line worth carrying is: **THE GATE CARRIES FORWARD WHAT THE NEXT WORLD CAN LAWFULLY RECEIVE — it does not have to carry the whole predecessor.**
