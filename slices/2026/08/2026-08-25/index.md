@@ -107,3 +107,13 @@ The co-evolution thread is pushed through its hardest corrections and stranger s
 The slice then crosses domains carefully: heterogeneous carriers—genomes, altered environments, bodies, words, songs, practices, archives, institutions—may multiply reconstruction pathways without becoming scientifically interchangeable. The theological reading names the center: **love as a relation that enlarges another life's capacity to continue becoming, even when the lover's own local preservation is no longer the highest condition.** John 15:13 becomes the terminal witness, not as biological proof but as theological architecture.
 
 The line worth carrying is: **Maybe life begins when matter acquires a way to leave enough unfinished instructions behind that another moment can finish the sentence. And maybe love is what allows the sentence to continue even when the speaker cannot.**
+
+## Formation history / PEEL / LEEP frontier
+
+### [THE TUESDAY SLICE — PEEL / LEEP](the-tuesday-slice-peel-leep.md)
+
+A nap-induced question about experienced time unfolds into a formation-receipt specimen: `7/2 = 3 + 1/2`, then `22/7 = 3 + 1/7`, revealing the exact recurrence `n → 3n+1`. In ternary, `2 → 7 → 22` becomes `2 → 21 → 211`: append `1`. The later φ exponent set independently exposes `n → 3n` as append `0`, with `27 → 81` and `27 → 82` becoming sibling ternary branches `10000₃` and `10001₃`.
+
+The slice then separates three carrier types. `22/7` is a lawful approximation/bounding witness around π; a quotient/remainder expression is an exact formation receipt; and a Lucas integer plus parity can reconstitute the corresponding φ-power exactly because `φⁿ = Lₙ ± φ⁻ⁿ` closes into a quadratic equation. PEEL becomes decomposition to formation trace; LEEP becomes lawful replay/reconstitution, with identity permitted only when the carrier is actually lossless and order-complete.
+
+The line worth carrying is: **A surface can carry enough of its becoming to become generative again.**
