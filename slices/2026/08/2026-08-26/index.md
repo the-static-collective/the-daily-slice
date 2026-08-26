@@ -79,3 +79,11 @@ The line worth carrying is: **THE NAME WAS WRITTEN; THE HANDWRITING IS LOST. THE
 `TETRAGRAMMATON-000` maps the whole weird world before the Name-of-Jesus dive descends through it. The four-letter carrier `YHWH` remains unusually attributable while pronunciation, script, spoken substitutes, Greek transmission, graphic treatment, ritual use, and later mystical interpretation diverge around it. Qumran breaks the simplistic “they stopped saying it” story with ordinary script, paleo-Hebrew, tetrapuncta, substitutions, and distinct name-writing events; Greek transmission likewise preserves multiple strategies rather than one timeless `YHWH → KYRIOS` rule. Later ritual and mystical corpora are retained with dates instead of projected back into Sinai.
 
 The line worth carrying is: **THE FOUR LETTERS ARE THE DURABLE PART. ALMOST EVERYTHING AROUND THEM MOVES.**
+
+## Exodus 34 / mercy-formula backtrace
+
+### [THE INNOVATION MAY BE THE BINDING](the-innovation-may-be-the-binding.md)
+
+A liveslice walks Exodus 34:6–7 backward into the ancient divine-mercy field without inventing a missing chain of custody. Ugaritic El supplies a real compassionate/kind divine profile; the Tell Fekheriye inscription independently calls Hadad-Sikan a `ʾlh rḥmn`, a merciful god; Akkadian preserves a womb/compassion/mercy semantic field; and contested Judahite graffiti at Beit Lei place divine-name, graciousness, and absolution language startlingly near one another. But no extra-biblical ancestor of the **whole** Exodus proclamation emerges, and several characteristic bindings remain locally stubborn. The same pass notices that the later **Thirteen Attributes of Mercy** are produced by an interpretive segmentation of an unnumbered continuous text rather than printed as thirteen on Exodus's surface.
+
+The line worth carrying is: **THE INGREDIENTS TRAVEL. THE BINDING BECOMES IDENTITY.**
