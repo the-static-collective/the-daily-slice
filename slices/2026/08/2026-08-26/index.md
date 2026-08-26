@@ -71,3 +71,11 @@ A gold-star correction makes the Name board stranger and more rigorous. Within t
 The same slice preserves the day's hard-left tangent: modern Jesus/coffee culture as a normalization machine. Morning schedules, hospitality, dry evangelical alcohol norms, third-place coffeehouse culture, specialty-coffee aesthetics, church-plant strategy, and productivity culture stack until a psychoactive stimulant becomes almost invisible infrastructure. The research question is not whether coffee is “sinful,” but **how a community decides which dependencies become visible enough to moralize.**
 
 The line worth carrying is: **THE NAME WAS WRITTEN; THE HANDWRITING IS LOST. THE COFFEE IS EVERYWHERE; THE DRUG BECAME INVISIBLE.**
+
+## Tetragrammaton field map
+
+### [THE FOUR LETTERS ARE THE DURABLE PART](the-four-letters-are-the-durable-part.md)
+
+`TETRAGRAMMATON-000` maps the whole weird world before the Name-of-Jesus dive descends through it. The four-letter carrier `YHWH` remains unusually attributable while pronunciation, script, spoken substitutes, Greek transmission, graphic treatment, ritual use, and later mystical interpretation diverge around it. Qumran breaks the simplistic “they stopped saying it” story with ordinary script, paleo-Hebrew, tetrapuncta, substitutions, and distinct name-writing events; Greek transmission likewise preserves multiple strategies rather than one timeless `YHWH → KYRIOS` rule. Later ritual and mystical corpora are retained with dates instead of projected back into Sinai.
+
+The line worth carrying is: **THE FOUR LETTERS ARE THE DURABLE PART. ALMOST EVERYTHING AROUND THEM MOVES.**
