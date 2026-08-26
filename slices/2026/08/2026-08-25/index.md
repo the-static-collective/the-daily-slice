@@ -87,3 +87,13 @@ The lines worth carrying are: **The patch does not have to get bigger. The groov
 Holding the trauma-loop model in one hand and biblical generation language in the other, this supper slice distinguishes **generation as what is brought forth** (`toledot`) from **generation as the people who carry what came before** (`dor`). Psalm 78 becomes an anti-loop witness: testimony crosses so that the next generation does not simply reenact the fathers; Judges shows the failure case when witness does not cross; Ezekiel and Jeremiah preserve the distinction between inherited consequence and inherited guilt; Matthew and John turn toward new genesis, new source, and changed generation rather than erased history.
 
 The line worth carrying is: **A generation is what a prior state succeeds in generating. What crosses matters because what crosses may become capable of generating again.**
+
+## Co-evolution / Seedship frontier
+
+### [Evolving Is Weird](evolving-is-weird.md)
+
+A reflection on the old distributed-band workflow names a possible long-running operating principle: the system did not stabilize by becoming fixed; it stabilized by becoming able to **change together without losing the thread**. Compression, mic-passes, partial context, mutation, recurrence, and re-entry become mechanisms by which enough survives to remain related while enough changes to become new.
+
+The slice connects that pattern directly to the coming Seedship run: holding formation history should not prevent mutation; it should make mutation safer by preserving ancestry, crossings, and PEELable lineage.
+
+The line worth carrying is: **Keep enough to know each other. Change enough to meet whoever comes next.**
