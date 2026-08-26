@@ -42,6 +42,18 @@ The Vault flips from archive to **seedbank**: ARK materials carry viable, attrib
 
 The line worth carrying is: **The Ark does not preserve the creature. The Ark preserves enough lawful difference for life to happen again.**
 
+## Late-Lunch frontier
+
+### [VIABILITY WITHOUT AUTHORITY](viability-without-authority.md)
+
+The Seedbank idea gets a harder transport law: a carrier may preserve **reconstitutive viability** while authority, admission, and consequence remain local to the receiving world. The slice separates information, reconstitutive potential, and authority; treats viability as environment- and target-relative rather than a Boolean seed property; and sharpens Storyship cargo into attributable differences from which a destination may decide what, if anything, can lawfully live again.
+
+`VIABILITY-WITHOUT-AUTHORITY-001` turns the idea into a falsifiable package ladder: artifact → tests → provenance → formation trace → refusal/failure history → forged authority. Reconstruction quality is measured rather than assumed; the hard boundary is that a forged `authority: granted` claim must gain exactly zero destination power.
+
+The line worth carrying is: **The seed can preserve power-to-become without carrying power-over-the-destination.**
+
+[Visual artifact](../../../../artifacts/2026-08-25/viability-without-authority.html)
+
 ## Relational continuity / Hugh Jackman frontier
 
 ### [Hugh Jackman Keeps Coming Back](hugh-jackman-keeps-coming-back.md)
