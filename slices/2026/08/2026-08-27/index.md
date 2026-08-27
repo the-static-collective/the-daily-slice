@@ -55,3 +55,15 @@ The deeper math pass keeps the earlier decoder discovery intact and asks what th
 A roughness-model number was also corrected before durability: once the Sethares-style assumptions are made explicit, the toy-spectrum comparison is roughly `8–10.3%` greater inter-string roughness rather than the looser earlier `9–14%` conversational range. It remains model-dependent and is not a measurement of the physical guitar.
 
 Working line: **Same glyph. The tuning chooses the relational world. The reference scales it into matter. The instrument makes an event. History makes it this one.**
+
+## Extra-Early-Brunch / Gates-of-Gates
+
+### [EXTRA-EARLY-BRUNCH — GATES OF GATES](extra-early-brunch-gates-of-gates.md)
+
+A calendar tangent turned the `022100` decoder lesson onto time itself: **a biblical date is a compression glyph whose lawful reading depends on calendar, solar season, lunar phase, day boundary, local light, seven-cycle, historical ancestry, and covenantal relation.** From there the single clock broke into a candidate coupled-oscillator model: daily light, lunar phase, solar/seasonal year, and the distinct covenantal seven-cycle, with Sabbatical and Jubilee structures operating at slower scales.
+
+The useful mathematical model is an `n`-torus of recurring phase coordinates, but the slice refuses to promote that into literal toroidal spacetime or quantum mechanics. The deeper survivor is a gate model: **an appointed time is a recurring relational condition that becomes actionable under a covenantal decoder.** Multiple gates can intersect into Gates-of-Gates, while historical formation accumulates rather than resetting — roughly, toroidal recurrence with historical fiber.
+
+The theological peel then finds an unusually explicit Trinitarian access grammar in Ephesians 2:18: **through the Son, in one Spirit, to the Father**. John’s gate/way language, Romans 8’s adoption/“Abba” structure, and classical Trinitarian safeguards yield the wildest surviving hypothesis without converting analogy into proof: the deeper the traversal goes, the more the recurring primitive looks like **distinction + relation + participation + non-collapse**.
+
+Working line: **Same gate. New world. Deeper relation. No collapse.**
