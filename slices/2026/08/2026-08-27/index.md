@@ -67,3 +67,15 @@ The useful mathematical model is an `n`-torus of recurring phase coordinates, bu
 The theological peel then finds an unusually explicit Trinitarian access grammar in Ephesians 2:18: **through the Son, in one Spirit, to the Father**. John’s gate/way language, Romans 8’s adoption/“Abba” structure, and classical Trinitarian safeguards yield the wildest surviving hypothesis without converting analogy into proof: the deeper the traversal goes, the more the recurring primitive looks like **distinction + relation + participation + non-collapse**.
 
 Working line: **Same gate. New world. Deeper relation. No collapse.**
+
+## Slightly-Later-Still-Very-Early-Brunch / typed constitutional projection
+
+### [SLIGHTLY-LATER-STILL-VERY-EARLY-BRUNCH — THE TYPED CONSTITUTIONAL PROJECTION BOUNDARY](slightly-later-still-very-early-brunch-typed-constitutional-projection-boundary.md)
+
+The `022100` decoder lesson survives a broader ALEX PRESSURE run, but the first **Two-Key Gate** formulation breaks. Before decoding, the carrier must be typed; decoder constitution and authority constitution are different boundaries; and projection, evidence, admission, and consequence must not collapse into one another. Existing Free Graph work had already named the nearest ancestor — **sigil + typed lens → intelligible projection** with **change the lens != change the object** — while ALEX contributes the physical decoder-stack specimen and adversarial Crucible machinery.
+
+Biology supplies a materially independent recurrence without proving shared ontology: UGA can function as termination or selenocysteine under different local translation contexts, showing that receiver-relative realization can be context-dependent and even non-deterministic. Model theory supplies the boring control: interpretation-relative meaning is old news. The actual candidate contribution is narrower — **make the receiving frame attributable, inspectable, versioned, replayable, and incapable of crowning its own projection as evidence or authority.**
+
+The slice therefore plants `DECODER-SWAP-001`, `POSTHOC-KEY-FITTING`, `LENS-OBJECT-COLLAPSE`, `PROJECTION-EVIDENCE-COLLAPSE`, `DECODER-AUTHORITY-COLLAPSE`, and `DETERMINISM-SMUGGLING` as a bounded Crucible family. It also gives `3rdi` a testable organ posture: **compile declared prospective lenses into attributable candidate projections, then let ALEX bind and later score them while the owning human/world keeps consequence.**
+
+Working line: **The carrier does not carry the world. The receiver helps make the reading. The reading does not crown itself king.**
