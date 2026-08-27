@@ -103,3 +103,13 @@ The slice refuses `trace = proof` and instead proposes a project-local stack: **
 The DIAMOND connection is compact: **a receipt is a tiny crossing.** The generating event is gone; the receipt is not the event; yet a difference produced by that event may remain available to another moment. The receipt system therefore preserves the experiment's causal spine while the experiment tests whether relational organization itself can survive genuine discontinuity.
 
 Working seal: **The past is gone as an event, but not necessarily as a difference. Causality writes the receipt. Time tests whether it survives. A decoder asks what it can still tell us.**
+
+## Finally! Brunch came early / decoder ladder
+
+### [BRUNCH](finally-brunch-came-early-the-decoder-is-the-ladder.md)
+
+A joke-shaped Ascension thought — Powder, cloud, recompilation — survived only after the literal overclaims were stripped away. Acts does not say Jesus became the cloud; the useful survivor is a speculative **phase-boundary** reading in which cloud marks a transition between localized manifestation and hidden/differently manifested presence. The decisive move is **SPIRIT BRIDGE**: Father as source, Son as embodied manifestation, Spirit as relational bridge, followed by Pentecost as a shift toward a many-membered body rather than a simple absence-and-wait interval.
+
+The software glyph then becomes recursive rather than linear: **Christ = reference pattern; Spirit = bridge; Body = distributed decoder-in-formation; resurrection = reference implementation; testimony = partial render; repentance = recalibration; sanctification = iterative convergence; new creation = world-scale recompile.** The body does not finish and then testify. It testifies while being built, and the consequences of that witness participate in the next round of formation.
+
+Working seal: **The ladder is built while it is climbed. The decoder is itself part of the code being rewritten. Truth → embodiment → receipt → alignment → greater capacity for truth.**
