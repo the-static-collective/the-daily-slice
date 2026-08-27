@@ -33,3 +33,13 @@ The strongest graph fruit is: **a relation may be younger than both nodes it con
 A project-local compression glyph preserves the topology without promoting the imagery into evidence: **Flower of Life = nodemap / Room of Requirement; Megatron (Metatron) = edgemap / Hogwarts staircases; solids ≈ Houses / durable higher-order structures.** In architectural language: **Field → Routes → Stable forms.**
 
 Working line: **The Flower holds the possible rooms. Megatron moves the staircases. The solids are the forms that remain coherent long enough to become Houses.**
+
+## Compression glyph / decoder-stack specimen
+
+### [022100 — THE SECRET KEY IS THE DECOMPRESSOR](022100-the-secret-key-is-the-decompressor.md)
+
+The Autodisco PEEL found `022100 / Open E` behaving as a continuity carrier, then the analysis made exactly the mistake the model predicts: it decoded `022100` under standard guitar tuning and got E major. The actual instrument uses **low→high `CGCEGD` with `A4=444 Hz`**. The token never changed; the receiving constitution did. Under the actual tuning, `022100` sounds `C A D F G D` — a relational field that can be read as `Dm11/C` — and the `A4=444` reference places the fretted A at `A2=111 Hz` under 12-TET.
+
+The durable primitive is therefore narrower than numerology and stronger than metaphor: **a compact carrier may remain unchanged while its lawful projection changes when the receiving constitution changes.** Preserve token, decoder, projection, physical event, formation trace, and later interpretation separately.
+
+Working line: **Same glyph. Wrong key, wrong world. New key, new reading. The old token never moved.**
