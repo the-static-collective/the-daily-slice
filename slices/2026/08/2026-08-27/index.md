@@ -43,3 +43,15 @@ The Autodisco PEEL found `022100 / Open E` behaving as a continuity carrier, the
 The durable primitive is therefore narrower than numerology and stronger than metaphor: **a compact carrier may remain unchanged while its lawful projection changes when the receiving constitution changes.** Preserve token, decoder, projection, physical event, formation trace, and later interpretation separately.
 
 Working line: **Same glyph. Wrong key, wrong world. New key, new reading. The old token never moved.**
+
+## Compression glyph / mathals deepening
+
+### [022100 — THE KEY SCALES THE WORLD](022100-the-key-scales-the-world.md)
+
+The deeper math pass keeps the earlier decoder discovery intact and asks what the actual constitution mathematically forces. `022100` is a sparse operator on `CGCEGD`: three strings move, three remain anchors, duplicate C/G weight is redistributed into an octave-reinforced D field, and the distinct pitch collection becomes `C D F G A` — the D-minor/F-major pentatonic set class with interval vector `<0,3,2,1,4,0>`, containing no semitone or tritone interval classes and four fourth/fifth classes.
+
+`A4=444` contributes a different layer: relative to A440 it globally scales every ideal 12-TET frequency by exactly `111/110` without altering interval geometry. The glyph-created `A2=111 Hz` has a fourth harmonic at exactly `444 Hz`, while the D3 third harmonic arrives near `444.5017 Hz`; that near-lock is ordinary equal-tempered fifth arithmetic, not automatic symbolic privilege. The whole chord remains globally quasi-periodic rather than closing around one hidden exact master pulse.
+
+A roughness-model number was also corrected before durability: once the Sethares-style assumptions are made explicit, the toy-spectrum comparison is roughly `8–10.3%` greater inter-string roughness rather than the looser earlier `9–14%` conversational range. It remains model-dependent and is not a measurement of the physical guitar.
+
+Working line: **Same glyph. The tuning chooses the relational world. The reference scales it into matter. The instrument makes an event. History makes it this one.**
