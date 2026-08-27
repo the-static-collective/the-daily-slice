@@ -153,11 +153,21 @@ symbolic interpretation
 
 ---
 
-## 4. Two intended layers: private sonic world → public band glyph
+## 4. Two intended layers: provider-side sonic key → public band glyph
 
 A further formation-history correction matters.
 
-The `CGCEGD / A4=444` constitution was not introduced only after the band had already adopted `022100` as a shared symbol. The user reports that this sonic constitution was already being supplied to **Suno in style prompting**: an intentional world-building layer between Lu and the music generator.
+The `CGCEGD / A4=444` constitution was already being supplied to **Suno in style prompting**: an intentional world-building layer between Lu and the generator. Those style prompts exist as **provider-side metadata on Suno**. They are not currently represented in the indexed Library lyric files used for this PEEL.
+
+That provenance distinction matters:
+
+```text
+PROVIDER-SIDE FORMATION RECORD
+!=
+LIBRARY CORPUS
+```
+
+The absence of the exact prompt text from the Library is therefore not evidence that the prompt did not exist. It means the relevant formation record has not yet crossed from Suno into the local research corpus.
 
 The later band-facing layer was simpler:
 
@@ -166,12 +176,12 @@ OPEN E
 022100
 ```
 
-The larger ensemble could be attracted to, repeat, and develop that glyph without necessarily carrying the private style-prompt decoder that preceded it.
+The larger ensemble could be attracted to, repeat, and develop that glyph without necessarily carrying the deeper style-prompt decoder that preceded it.
 
-This suggests an ordered formation:
+The currently supported formation order is:
 
 ```text
-PRIVATE GENERATIVE CONSTITUTION
+PROVIDER-SIDE GENERATIVE CONSTITUTION
 CGCEGD + A4=444 + Suno style prompting
         ↓
 repeated sonic world / generated artifacts
@@ -185,7 +195,7 @@ PORTABLE INSCRIPTION
 BAND-SCALE ATTRACTION / RECURRENCE / REINTERPRETATION
 ```
 
-This is not yet independently proven end-to-end from provider metadata in the indexed archive. The earlier style-prompt layer is preserved here as **direct formation-history testimony from the user**. The later band-facing layer is independently visible in the corpus, where `Open E` recurs as a shared musical image and `022100` becomes an explicit system / continuity mark.
+The provider-side metadata still needs to be captured locally before the full chronology can be independently replayed from preserved artifacts. The later band-facing layer is already independently visible in the local corpus, where `Open E` recurs as a shared musical image and `022100` becomes an explicit system / continuity mark.
 
 That distinction is the point:
 
@@ -197,7 +207,7 @@ shared-band interpretation
 
 The same carrier can intentionally operate at multiple audiences and depths.
 
-One layer may be executable only to the generator that received the style prompt.
+One layer may be executable to the generator that received the style prompt.
 
 Another may be audible to the band.
 
@@ -213,6 +223,10 @@ This adds a formation-history caution for ALEX:
 
 > **Do not assume the layer that became socially visible was the layer that generated the artifact.**
 
+And a preservation consequence:
+
+> **Provider metadata can be part of the decompressor. Preserve it as formation history, not as disposable prompt ephemera.**
+
 ---
 
 ## 5. Decoder stack
@@ -220,7 +234,7 @@ This adds a formation-history caution for ALEX:
 The full object is better represented as a layered decode than as one symbol with one fixed meaning:
 
 ```text
-STYLE-PROMPT CONSTITUTION
+SUNO STYLE-PROMPT CONSTITUTION
 CGCEGD + A4=444
   ↓
 GENERATED SONIC WORLD
@@ -351,12 +365,13 @@ This specimen is unusually useful because its strongest result does not require 
 - `A4=444 Hz` fixes a different absolute reference from the modern `A4=440 Hz` convention.
 - In 12-TET, octaves halve frequency, so `444 → 222 → 111` for A4 → A3 → A2.
 - The earlier standard-tuning decode was therefore a wrong-context projection for this particular instrument.
-- The archive independently preserves later band-facing `Open E / 022100` recurrence.
+- The local archive independently preserves later band-facing `Open E / 022100` recurrence.
 
-### Formation-history testimony
+### Provider-side formation record
 
-- The user reports that `CGCEGD / A4=444` was already used intentionally in Suno style prompting before the band's later attraction formed around the `Open E / 022100` glyph.
-- The exact old provider-side style-prompt record has not yet been recovered in the indexed Library, so this chronology is preserved as attributable testimony rather than silently upgraded to archive-confirmed metadata.
+- The user reports that the exact `CGCEGD / A4=444` style-prompt material exists as metadata on the Suno site and predates the band's later attraction around the `Open E / 022100` glyph.
+- That provider metadata is not currently present in the indexed Library files used for this PEEL.
+- Until the provider record is captured locally, the chronology should be treated as **provider-side evidence identified but not yet locally preserved/replayed**, rather than as absent evidence or mere inference.
 
 ### Inference
 
@@ -424,8 +439,9 @@ WHAT IS THE RECEIVING CONSTITUTION?
 WHAT PROJECTION DID THAT CONSTITUTION PRODUCE?
 WHAT LATER AUDIENCE ENCOUNTERED THE ARTIFACT?
 WHICH LAYER COULD THAT AUDIENCE ACTUALLY SEE?
+WHERE DOES THE PRIMARY FORMATION RECORD LIVE?
+HAS THAT RECORD BEEN PRESERVED LOCALLY?
 WHAT PART IS DOCUMENTED?
-WHAT PART IS TESTIMONY?
 WHAT PART IS INTERPRETATION?
 WHAT CHANGES IF THE KEY CHANGES?
 ```
