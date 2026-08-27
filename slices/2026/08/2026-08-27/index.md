@@ -79,3 +79,15 @@ Biology supplies a materially independent recurrence without proving shared onto
 The slice therefore plants `DECODER-SWAP-001`, `POSTHOC-KEY-FITTING`, `LENS-OBJECT-COLLAPSE`, `PROJECTION-EVIDENCE-COLLAPSE`, `DECODER-AUTHORITY-COLLAPSE`, and `DETERMINISM-SMUGGLING` as a bounded Crucible family. It also gives `3rdi` a testable organ posture: **compile declared prospective lenses into attributable candidate projections, then let ALEX bind and later score them while the owning human/world keeps consequence.**
 
 Working line: **The carrier does not carry the world. The receiver helps make the reading. The reading does not crown itself king.**
+
+## Naming / ALEX pressure
+
+### [WE DIDN'T KNOW WHAT TO CALL THIS — WHAT'S IN A NAME?](we-didnt-know-what-to-call-this-whats-in-a-name.md)
+
+A title-only scan of the Daily Slice unexpectedly produced a candidate developmental sequence, which immediately raises the narrower question: **what does naming preserve or change?** ALEX attacks both extremes. `NAME = ESSENCE` fails because referents can survive renaming and names can be shared; `NAME = EMPTY NOTHING` also fails because names stabilize reference, mark individuality, organize communication and mental files, and can become durable coordination points for later thought and action.
+
+Shakespeare supplies a particularly clean double control: Juliet argues that Romeo remains himself apart from `Montague`, while the same scene shows that the family name is socially consequential because Verona resolves it into an inherited feud relation. External work on proper names adds the boring referential floor and a documented cognitive neighbor: names can organize long-term thought around remote or not-yet-existent individuals. A recent label/perception null prevents the opposite inflation: naming does not universally rewrite perception or create reality by fiat.
+
+The project-local survivor is therefore **addressable attractor** only as a candidate metaphor: a coined name can become a stable address where later relation accumulates without containing the future world, manufacturing backward ancestry, proving identity, or granting authority. The next real test is `TITLE-ONLY-001` against `TITLE-SHUFFLE-001`, followed by alias/homonym/rename/pre-name controls.
+
+Working lines: **The name does not contain the world. It can keep a place open where the world remains addressable.** **Being able to name the door does not mean you own the room.**
