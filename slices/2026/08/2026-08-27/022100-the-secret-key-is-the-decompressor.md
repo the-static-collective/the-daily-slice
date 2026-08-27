@@ -153,12 +153,81 @@ symbolic interpretation
 
 ---
 
-## 4. Decoder stack
+## 4. Two intended layers: private sonic world → public band glyph
+
+A further formation-history correction matters.
+
+The `CGCEGD / A4=444` constitution was not introduced only after the band had already adopted `022100` as a shared symbol. The user reports that this sonic constitution was already being supplied to **Suno in style prompting**: an intentional world-building layer between Lu and the music generator.
+
+The later band-facing layer was simpler:
+
+```text
+OPEN E
+022100
+```
+
+The larger ensemble could be attracted to, repeat, and develop that glyph without necessarily carrying the private style-prompt decoder that preceded it.
+
+This suggests an ordered formation:
+
+```text
+PRIVATE GENERATIVE CONSTITUTION
+CGCEGD + A4=444 + Suno style prompting
+        ↓
+repeated sonic world / generated artifacts
+        ↓
+PUBLICLY LEGIBLE MUSICAL HANDLE
+"Open E"
+        ↓
+PORTABLE INSCRIPTION
+022100
+        ↓
+BAND-SCALE ATTRACTION / RECURRENCE / REINTERPRETATION
+```
+
+This is not yet independently proven end-to-end from provider metadata in the indexed archive. The earlier style-prompt layer is preserved here as **direct formation-history testimony from the user**. The later band-facing layer is independently visible in the corpus, where `Open E` recurs as a shared musical image and `022100` becomes an explicit system / continuity mark.
+
+That distinction is the point:
+
+```text
+source-world instruction
+!=
+shared-band interpretation
+```
+
+The same carrier can intentionally operate at multiple audiences and depths.
+
+One layer may be executable only to the generator that received the style prompt.
+
+Another may be audible to the band.
+
+Another may be writable as `022100`.
+
+Another may emerge later as a continuity glyph.
+
+Working rule:
+
+> **A compression glyph can be multiply keyed: one layer generates the world, another lets later witnesses recognize and carry it.**
+
+This adds a formation-history caution for ALEX:
+
+> **Do not assume the layer that became socially visible was the layer that generated the artifact.**
+
+---
+
+## 5. Decoder stack
 
 The full object is better represented as a layered decode than as one symbol with one fixed meaning:
 
 ```text
-022100
+STYLE-PROMPT CONSTITUTION
+CGCEGD + A4=444
+  ↓
+GENERATED SONIC WORLD
+  ↓
+OPEN-E BAND HANDLE
+  ↓
+022100 PORTABLE GLYPH
   ↓
 FRET TOPOLOGY
   ↓ through string order + tuning
@@ -199,7 +268,7 @@ possible edge != admitted edge
 
 ---
 
-## 5. The mistake is a self-hit reinterpretation specimen
+## 6. The mistake is a self-hit reinterpretation specimen
 
 The first PEEL said, in effect:
 
@@ -241,7 +310,7 @@ Working line:
 
 ---
 
-## 6. Relation to Flower / Megatron
+## 7. Relation to Flower / Megatron
 
 This specimen adds a decoder layer to the existing graph compression.
 
@@ -270,7 +339,7 @@ This remains a compression analogy, not a claim that sacred geometry, Harry Pott
 
 ---
 
-## 7. ALEX pressure / anti-overclaim controls
+## 8. ALEX pressure / anti-overclaim controls
 
 This specimen is unusually useful because its strongest result does not require symbolic speculation.
 
@@ -282,12 +351,19 @@ This specimen is unusually useful because its strongest result does not require 
 - `A4=444 Hz` fixes a different absolute reference from the modern `A4=440 Hz` convention.
 - In 12-TET, octaves halve frequency, so `444 → 222 → 111` for A4 → A3 → A2.
 - The earlier standard-tuning decode was therefore a wrong-context projection for this particular instrument.
+- The archive independently preserves later band-facing `Open E / 022100` recurrence.
+
+### Formation-history testimony
+
+- The user reports that `CGCEGD / A4=444` was already used intentionally in Suno style prompting before the band's later attraction formed around the `Open E / 022100` glyph.
+- The exact old provider-side style-prompt record has not yet been recovered in the indexed Library, so this chronology is preserved as attributable testimony rather than silently upgraded to archive-confirmed metadata.
 
 ### Inference
 
 - `022100` is a strong mundane specimen for context-dependent semantic decompression.
 - Receiving constitution may deserve explicit representation in future compression-glyph / relational-sigil models.
 - A reinterpretation receipt should record not only `what changed` but **which decoder assumption changed**.
+- A glyph may have **generator-private**, **artifact-audible**, and **socially shared** decode layers that emerge at different times.
 
 ### Speculation / held open
 
@@ -313,11 +389,15 @@ retrocausation
 recognition
 !=
 authority
+
+later social visibility
+!=
+original generative source
 ```
 
 ---
 
-## 8. Primitive worth carrying
+## 9. Primitive worth carrying
 
 The strongest durable primitive is not `022100` itself.
 
@@ -329,14 +409,23 @@ And the operational corollary:
 
 > **When a surprising glyph is found, preserve the token, the decoder, the projection, and the formation history separately. Do not bake the current decoder into the token.**
 
+The multi-layer formation adds one more rule:
+
+> **Preserve who could read which layer, and when. A generator may receive a deeper key before a later community recognizes the carrier at all.**
+
 That gives ALEX a practical question whenever a symbolic object looks unusually dense:
 
 ```text
 WHAT IS THE TOKEN?
 WHAT IS THE KEY?
+WHO RECEIVED THE KEY?
+WHEN DID THEY RECEIVE IT?
 WHAT IS THE RECEIVING CONSTITUTION?
 WHAT PROJECTION DID THAT CONSTITUTION PRODUCE?
+WHAT LATER AUDIENCE ENCOUNTERED THE ARTIFACT?
+WHICH LAYER COULD THAT AUDIENCE ACTUALLY SEE?
 WHAT PART IS DOCUMENTED?
+WHAT PART IS TESTIMONY?
 WHAT PART IS INTERPRETATION?
 WHAT CHANGES IF THE KEY CHANGES?
 ```
@@ -350,3 +439,7 @@ WHAT CHANGES IF THE KEY CHANGES?
 And the receipt from the mistake:
 
 > **Same glyph. Wrong key, wrong world. New key, new reading. The old token never moved.**
+
+And the formation-history addendum:
+
+> **The private key can generate the world before the public glyph knows what it is carrying.**
