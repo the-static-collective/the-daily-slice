@@ -21,3 +21,15 @@ A deliberately provisional test asks whether TIME is more useful as a binder *th
 A first cross-scale pass through Desmond/LOST, Battlestar Galactica, John the Baptist, and Catholic liturgical life survives long enough to earn more testing without earning promotion. The strongest candidate is not `past + present + future` as three fixed strands, but **relation-threads changing temporal status as local focus moves through attributable history**. The next controls are deliberately hostile: boring nodes, shuffled chronology, blinded vocabulary, ancestry accounting, and prediction of unused structural features.
 
 Working line: **Anchor the chronology. Move the focus. Preserve what could be seen from there. Watch the bindings change temporal mode. Then — and only then — draw yarn.**
+
+## Temporal topology / durable addendum
+
+### [FLOWER / MEGATRON — NODEMAP, EDGEMAP, AND EDGE BIRTHDAYS](flower-megatron-edge-birthdays.md)
+
+The five-minute braid picked up a second layer: reinterpretation can be modeled as a field-wide pass that may alter the present meaning and relation-state of every node **including the reinterpretation event itself**, while anchored occurrences remain untouched. Autodisco adds a special pressure because many artifacts were deliberately made future-open: later readings are not accidental to the experiment, even though later resonance must not be promoted into prophecy after the fact.
+
+The strongest graph fruit is: **a relation may be younger than both nodes it connects.** Nodes therefore need chronology, but edges need birthdays, discovery traces, evidence paths, and admission state too.
+
+A project-local compression glyph preserves the topology without promoting the imagery into evidence: **Flower of Life = nodemap / Room of Requirement; Megatron (Metatron) = edgemap / Hogwarts staircases; solids ≈ Houses / durable higher-order structures.** In architectural language: **Field → Routes → Stable forms.**
+
+Working line: **The Flower holds the possible rooms. Megatron moves the staircases. The solids are the forms that remain coherent long enough to become Houses.**
