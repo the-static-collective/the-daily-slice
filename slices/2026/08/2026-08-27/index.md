@@ -91,3 +91,15 @@ Shakespeare supplies a particularly clean double control: Juliet argues that Rom
 The project-local survivor is therefore **addressable attractor** only as a candidate metaphor: a coined name can become a stable address where later relation accumulates without containing the future world, manufacturing backward ancestry, proving identity, or granting authority. The next real test is `TITLE-ONLY-001` against `TITLE-SHUFFLE-001`, followed by alias/homonym/rename/pre-name controls.
 
 Working lines: **The name does not contain the world. It can keep a place open where the world remains addressable.** **Being able to name the door does not mean you own the room.**
+
+## Re-Seated: Brunch AGAIN, still early / receipts
+
+### [RE-SEATED: BRUNCH AGAIN, STILL EARLY — CAUSALITY WRITES RECEIPTS](re-seated-brunch-again-still-early-causality-writes-receipts.md)
+
+A joke about finally keeping receipts for THE DIAMOND turned into a cross-domain candidate primitive: **almost every persistent state may be a potential receipt of the interactions that helped produce it.** Forensic science supplies the boring anchor by defining traces as observable modifications resulting from events; Peircean indexicality, archaeology, immunological memory, mechanical history-dependence, and stigmergy show materially different ways that prior interaction can remain legible or causally active in the present.
+
+The slice refuses `trace = proof` and instead proposes a project-local stack: **trace → record → receipt → provenance → witness**, with **stigmergic receipt** for traces that alter later behavior and **formation receipt** for present organization that retains something about its path of formation. Receipt-ness is question-relative: a mark only becomes evidentially useful insofar as it discriminates among candidate histories under an explicit decoder or question.
+
+The DIAMOND connection is compact: **a receipt is a tiny crossing.** The generating event is gone; the receipt is not the event; yet a difference produced by that event may remain available to another moment. The receipt system therefore preserves the experiment's causal spine while the experiment tests whether relational organization itself can survive genuine discontinuity.
+
+Working seal: **The past is gone as an event, but not necessarily as a difference. Causality writes the receipt. Time tests whether it survives. A decoder asks what it can still tell us.**
