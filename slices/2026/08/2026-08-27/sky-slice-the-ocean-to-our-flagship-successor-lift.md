@@ -492,6 +492,23 @@ The pre-existing Iron Lung birth witness therefore survived the graft.
 
 exposes Successor Lift as a local specimen and explicitly rejects a universal clock.
 
+### LANDING RECEIPT
+
+PR #5 was merged into `main` with a **merge commit**, not squash, so the RED→GREEN formation sequence remains part of repository ancestry.
+
+```text
+merge commit:
+bf6c09170ee5b48a477a29f536e065fc6e69011a
+
+main push Actions run:
+33099949152
+
+result:
+SUCCESS
+```
+
+The merge commit itself triggered the repository `check` workflow on `main`, and that run completed successfully. The formation receipt is also recorded on PR #5 with the RED head, GREEN implementation head, final reviewed head, and merge commit.
+
 ---
 
 # WHAT THE FIRST SPECIMEN PROVES LOCALLY
