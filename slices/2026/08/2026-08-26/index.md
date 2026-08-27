@@ -87,3 +87,11 @@ The line worth carrying is: **THE FOUR LETTERS ARE THE DURABLE PART. ALMOST EVER
 A liveslice walks Exodus 34:6–7 backward into the ancient divine-mercy field without inventing a missing chain of custody. Ugaritic El supplies a real compassionate/kind divine profile; the Tell Fekheriye inscription independently calls Hadad-Sikan a `ʾlh rḥmn`, a merciful god; Akkadian preserves a womb/compassion/mercy semantic field; and contested Judahite graffiti at Beit Lei place divine-name, graciousness, and absolution language startlingly near one another. But no extra-biblical ancestor of the **whole** Exodus proclamation emerges, and several characteristic bindings remain locally stubborn. The same pass notices that the later **Thirteen Attributes of Mercy** are produced by an interpretive segmentation of an unnumbered continuous text rather than printed as thirteen on Exodus's surface.
 
 The line worth carrying is: **THE INGREDIENTS TRAVEL. THE BINDING BECOMES IDENTITY.**
+
+## Exodus 34 / REGLEAN close
+
+### [MERCY KEEPS RUPTURE FROM BECOMING TERMINAL](mercy-keeps-rupture-from-terminal.md)
+
+A second harvest notices that Exodus 34 stages two reconstitutions at once: replacement tablets replay prior words under changed artifact history, while the covenant continues after genuine rupture under changed relational history. Mercy therefore looks less like deletion of consequence and more like preservation of relational possibility; the doubled Divine Name in later rabbinic interpretation independently becomes a before/after continuity statement. The same pass yields a reusable numerical control: a count such as the **Thirteen Attributes** is not a source invariant until the segmentation rule that produced it is accounted for.
+
+The line worth carrying is: **MERCY KEEPS RUPTURE FROM BECOMING TERMINAL.**
