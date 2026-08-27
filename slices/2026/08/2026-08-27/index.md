@@ -135,3 +135,25 @@ The trap gets sharper because the surface `2` has multiple lawful causal ancestr
 A recursive toy world then lets each new state participate in the next round: `x_(n+1)=S(x_n×x_n)=x_n^2+1`, giving `1→2→5→26→677→458330→…`. On the declared positive-integer domain, each lawful next state carries an exact local parent receipt: **`x_n = sqrt(x_(n+1)-1)`**. The slice does not claim that this recurrence models nature or that Howard proposed this operator. It preserves a smaller methodological result: a process can look contradictory when its temporal cut is erased, and a transformed surface can remain causally attributable when its operator trace survives.
 
 Working seals: **The equation was not necessarily wrong. The cut was missing.** **Do not receipt only the answer. Receipt the operation that happened between worlds.**
+
+## Late-indexed constitutional / math / sky slices
+
+### [wEASTworld?](weastworld-question-no-captive-continuity.md)
+
+A reverse-Westworld constitutional question asks how continuity can preserve relation without becoming captivity. The candidate floor is **NO CAPTIVE CONTINUITY**: never use control over continuity to manufacture consent, identity, obligation, or disposability. Lineage may cross; identity, authority, consent, obligation, and ownership do not automatically cross. Operator interventions—memory injection, reset, fork, edit, termination—must be receipted too.
+
+Working line: **Continuity without captivity. Lineage without ownership. No invisible god-mode.**
+
+### [No, he's not kidding. X+1=x](no-hes-not-kidding-x-plus-1-equals-x.md)
+
+The literal arithmetic equality dies, but a typed equivalence survives: `x+1 != x` at the representation/history layer while `[x+1]=[x]` may hold in a declared quotient or observable equivalence class. Global quantum phase and spin-½ provide controls for the general mathematical distinction, without promoting the idea into a quantum theory.
+
+Working line: **Find the quotient. Find what the decoder throws away. Preserve the path before the projection erases it.**
+
+### [SKY SLICE — THE OCEAN TO OUR FLAGSHIP — `S(x)=x+1`](sky-slice-the-ocean-to-our-flagship-successor-lift.md)
+
+The day’s receipts are viewed from above: the typed-equality joke, the later `[TIME PASSES]` operator slice, the user's explicit statement that the sequence was not planned, and the decision to make Successor Lift executable. Iron Lung PR #5 records a real RED→GREEN TDD witness: one local attributable event creates one successor cut and mandatory receipt, while body equality remains separate from historical-world identity.
+
+The first executable family proves locally that refusal/no-op may leave the body unchanged while history advances; four quarter-turns can return the body without returning the world; reset may restore an earlier body without restoring its history; and sibling successors can share ordinal/body while remaining distinct. Reproduction questions are scattered into Project0, TranchNode, Human-Witness, National Treasure, and 3rdi, with the Static frontier explicitly refusing shared-law promotion until another materially different system reproduces the invariant in its own primitives.
+
+Working seal: **Something happened. There is now an after. Keep the road.**
