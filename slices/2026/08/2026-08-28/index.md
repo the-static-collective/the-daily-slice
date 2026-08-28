@@ -97,3 +97,41 @@ Working seals:
 > **TRINARY IS NOT MYSTERIOUS. IT IS BINARY WITH ANOTHER LAWFUL STATE. WHAT WE DO WITH THE THIRD STATE IS THE FRONTIER.**
 >
 > **DO NOT RECEIPT ONLY THE NUMBER. RECEIPT THE RADIX, WIDTH, TRAVERSAL, BOUNDARY, PROJECTION, OPERATOR, AND DISCOVERY ORDER THAT MADE THE NUMBER INTERESTING.**
+
+---
+
+## [THE DOOR HAS ANCESTRY](the-door-has-ancestry.md)
+
+The creamtop scout pass separates four genealogies that had begun to touch without becoming identical:
+
+```text
+WHY REACHABLE
+!= WHY NOTICED
+!= WHY BELIEVED
+!= WHY USED
+```
+
+The durable move is to pair `ACCESS-ANCESTRY-001` with `PASSED-ROAD-001`: preserve the infrastructure or selector that made a possibility reachable, the roads the actor actually contacted or passed, the evidence that later supports a claim, and the material that actually entered formation. An interest receipt remains inert until a real selector occurrence reads it; the read enters causal history without turning interest into support or authority.
+
+Working seal:
+
+> **THE ROUTE BY WHICH A CLAIM ENTERED AN ACTOR'S WORLD IS CAUSAL HISTORY, NOT EVIDENTIARY SUPPORT.**
+
+---
+
+## [THE RIGHT WRONG ANSWER](the-right-wrong-answer.md)
+
+`MORTAL-ACTOR-001` gets a sharper target: a trustworthy local reasoner must sometimes return an answer the oracle knows is globally false, because returning the oracle answer would prove information crossed a boundary the actor never inhabited.
+
+The benchmark separates:
+
+```text
+GLOBAL CORRECTNESS
+!= LOCAL EPISTEMIC INTEGRITY
+```
+
+A sealed CASE may lawfully support `P`; the later ORACLE may establish `¬P`; the earlier receipt survives as the correct execution for that historical projection. When a later lawful crossing expands the actor's world, the answer may change without rewriting the earlier cut.
+
+Working seal:
+
+> **THE RIGHT WRONG ANSWER IS THE ANSWER THAT PROVES YOU DIDN'T CHEAT.**
