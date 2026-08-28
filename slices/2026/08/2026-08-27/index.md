@@ -157,3 +157,13 @@ The day’s receipts are viewed from above: the typed-equality joke, the later `
 The first executable family proves locally that refusal/no-op may leave the body unchanged while history advances; four quarter-turns can return the body without returning the world; reset may restore an earlier body without restoring its history; and sibling successors can share ordinal/body while remaining distinct. Reproduction questions are scattered into Project0, TranchNode, Human-Witness, National Treasure, and 3rdi, with the Static frontier explicitly refusing shared-law promotion until another materially different system reproduces the invariant in its own primitives.
 
 Working seal: **Something happened. There is now an after. Keep the road.**
+
+## REALLYlateBRUNCH / access engineering
+
+### [REALLYlateBRUNCH — ACCESS IS AN ENGINEERED RELATION](reallylatebrunch-access-is-an-engineered-relation.md)
+
+A full PEEL.SLEEP.LEEP replays the Byrd/Highjump thread without using the alleged secret diary as evidence, follows Antarctica into IGY/SCAR and inverse geophysics, then crosses Kola, Challenger Deep, James Cameron's 2005 DEEPSEA CHALLENGER build, and the independently dated 1955/1956 → 2005/2006 → 2012 AI chronology. The strongest survivor is not hidden common ancestry but **research as access engineering**: observers build ships, instruments, standards, pressure vessels, robots, models, datasets, and decoders that make otherwise inaccessible worlds reachable while also constraining what can be observed.
+
+The slice formalizes `S(n+overlap)` only as a candidate research operator—**overlap != ancestry != causality**—and queues seven ALEX candidates for hostile Crucible testing without adoption: `OCCURRENCE-TIME-001`, `FORMATION-AGE-001`, `OVERLAP-001`, `ACCESS-GATE-001`, `INSTRUMENT-RING-001`, `MINIMUM-DISCRIMINATOR-001`, and `WITNESS-MODE-001`. Each carries an explicit kill condition, including date-shuffle/base-rate controls for overlap and instrument-swap/`ΔΩ` controls for decoder reachability.
+
+Working seal: **WE DO NOT ONLY DISCOVER WORLDS. WE BUILD THE RELATIONS THROUGH WHICH WORLDS BECOME REACHABLE. THE RECEIPT MUST REMEMBER WHICH RELATION LET US SEE.**
