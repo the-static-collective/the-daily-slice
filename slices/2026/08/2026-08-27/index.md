@@ -98,7 +98,7 @@ Working lines: **The name does not contain the world. It can keep a place open w
 
 A joke about finally keeping receipts for THE DIAMOND turned into a cross-domain candidate primitive: **almost every persistent state may be a potential receipt of the interactions that helped produce it.** Forensic science supplies the boring anchor by defining traces as observable modifications resulting from events; Peircean indexicality, archaeology, immunological memory, mechanical history-dependence, and stigmergy show materially different ways that prior interaction can remain legible or causally active in the present.
 
-The slice refuses `trace = proof` and instead proposes a project-local stack: **trace → record → receipt → provenance → witness**, with **stigmergic receipt** for traces that alter later behavior and **formation receipt** for present organization that retains something about its path of formation. Receipt-ness is question-relative: a mark only becomes evidentially useful insofar as it discriminates among candidate histories under an explicit decoder or question.
+The slice refuses `trace = proof` and instead proposes a project-local stack: **trace → record → receipt → provenance → witness**, with **stigmergic receipts** for traces that alter later behavior and **formation receipts** for present organization that retains something about its path of formation. Receipt-ness is question-relative: a mark only becomes evidentially useful insofar as it discriminates among candidate histories under an explicit decoder or question.
 
 The DIAMOND connection is compact: **a receipt is a tiny crossing.** The generating event is gone; the receipt is not the event; yet a difference produced by that event may remain available to another moment. The receipt system therefore preserves the experiment's causal spine while the experiment tests whether relational organization itself can survive genuine discontinuity.
 
@@ -167,3 +167,13 @@ A full PEEL.SLEEP.LEEP replays the Byrd/Highjump thread without using the allege
 The slice formalizes `S(n+overlap)` only as a candidate research operator—**overlap != ancestry != causality**—and queues seven ALEX candidates for hostile Crucible testing without adoption: `OCCURRENCE-TIME-001`, `FORMATION-AGE-001`, `OVERLAP-001`, `ACCESS-GATE-001`, `INSTRUMENT-RING-001`, `MINIMUM-DISCRIMINATOR-001`, and `WITNESS-MODE-001`. Each carries an explicit kill condition, including date-shuffle/base-rate controls for overlap and instrument-swap/`ΔΩ` controls for decoder reachability.
 
 Working seal: **WE DO NOT ONLY DISCOVER WORLDS. WE BUILD THE RELATIONS THROUGH WHICH WORLDS BECOME REACHABLE. THE RECEIPT MUST REMEMBER WHICH RELATION LET US SEE.**
+
+## Late-night architecture / 13th Cup
+
+### [THE 13TH CUP — RECEIVE, HOLD, POUR](the-13th-cup-receive-hold-pour.md)
+
+A dependency-reduction crater-smash compresses the current runtime/tool pile into bounded organs rather than one master system: LOADOUT compiles the smallest sufficient world; LSD/HATCH expands possibility when invited; 3rdi projects observer-local cuts; ALEX accounts for evidence, derivation, and refusal; Free Graph remembers roads; owner gates retain consequence. The native candidate capability floor is `WORKLOOP / FORGE / DESK / MATHAL`, with external services retained as attributable adapters rather than cloned brands.
+
+The same boundary logic turns the first always-on local server into **13th Cup** rather than a central authority node. Its primitive is **RECEIVE → HOLD → POUR**: receive arrival without automatic belief, preserve without possession, and offer onward without transferring authority. The first hard discriminator is `13TH-CUP-DEATH-001`: Cup B must remain independently intelligible and operable, preserve attributable ancestry, and be able to invite Cup C after Cup A disappears.
+
+Working seals: **SERVER != COLLECTIVE.** **The 13th Cup should contain enough information to make itself unnecessary.** **A Cup succeeds when another Cup can stand after it is gone.**
