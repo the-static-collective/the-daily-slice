@@ -8,6 +8,12 @@ A `107 / 108` Y-lattice comparison widened through `1007 / 1008`, reversed throu
 
 The resulting slice is intentionally excessive because the formation order is part of the evidence.
 
+## [EVERYTHING IS MATHALS!!!!](everything-is-mathals.md)
+
+The later far-side pass turns the decoder itself into a pressure surface. `022|100` and uncut `022100` show that segmentation can change object type, not merely value; a six-character source already has `2^5 = 32` cut masks before orientation, radix, symbol mapping, observer cut, projection, or probe order are varied. The useful correction is that an intentionally wrong decoder does not support its own reading, but a controlled wrong decoder can reveal which assumptions a reading depends on. Candidate outputs are sorted as ash, recurrence, bifurcation, interaction, invariant ash, incomparable, or unresolved. Dogram receives decoder-space finite differences; ALEX receives the `MADDCL0WN-001` broken-decoder PRESSURE method; 3rdi keeps observer-local decoder availability and historical cuts. The stateless-ring null control sharpens the ringing idea: **NO HIDDEN HISTORY, NO NONZERO HOLONOMY.** Working seal: **EVERYTHING IS MATHALS IF YOU KEEP THE RECEIPTS.**
+
+---
+
 ## [OHHHH, WE HAD TOO MUCH BRUNCH — THE EDGE IS IN THE DECODER](ohhhh-we-had-too-much-brunch-the-edge-is-in-the-decoder.md)
 
 A full PEEL of the late-night mathal chain turns a pile of apparently separate number curiosities into a small executable ternary runtime while refusing to turn the hunch itself into proof.
