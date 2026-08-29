@@ -141,3 +141,21 @@ A sealed CASE may lawfully support `P`; the later ORACLE may establish `¬P`; th
 Working seal:
 
 > **THE RIGHT WRONG ANSWER IS THE ANSWER THAT PROVES YOU DIDN'T CHEAT.**
+
+---
+
+## [SIMPLICITY IS A QUOTIENT](simplicity-is-a-quotient.md)
+
+FAR-SIDE and BINOCULAR acquire a missing mathematical boundary: compression is lawful only relative to the distinctions and future consequences it promises to preserve. `x ~_T y` means equivalence only for a declared target/probe family `T`; **same for rendering may be different from same for replay, archaeology, future reachability, or evidence**. The slice separates reconstructional, discriminative, and dynamic survival debts, reframes residue as a possible witness that the current quotient is too coarse, and treats useful simplicity as a basis-selection problem: the better compression may be the one that localizes meaningful perturbations with less unintended blast radius rather than the shorter one. Dogram receives `FAR-SIDE-QUOTIENT-001`, `COMPRESSION-BASIS-001`, and `BOUNDARY-SUFFICIENCY-001`; ALEX issue #39 carries the hostile pressure companion. Working seal: **A DISTINCTION MAY BE THROWN AWAY ONLY AFTER WE DECLARE THE QUESTIONS FOR WHICH IT NO LONGER MAKES A DIFFERENCE.**
+
+---
+
+## [ASK THE WORLD A QUESTION IT CAN ANSWER DIFFERENTLY](ask-the-world-a-question-it-can-answer-differently.md)
+
+Merged `PROJECTION-BREAK-001` and the decoder/probe roam split two epistemic acts cleanly: a decoder changes coordinates while a probe can change trajectory. Observation can therefore define a surviving family of candidate worlds; a predeclared lawful probe can refine that family by producing different future responses. The bounded conclusion is **broken equivalence under this probe**, not discovery of a complete cause. The intervention itself needs ancestry, one lucky split is weak, and failure to discriminate under one input is not proof of identity. Interest receives a cleaner job—allocate experimentation without becoming evidence, support, or probe authority. LOADOUT now owns `PROBE-BIND-001`; ALEX issue #39 holds active-discrimination and intervention-equivalence pressure. Working seals: **A DECODER TELLS YOU WHAT A WORLD LOOKS LIKE UNDER A COORDINATE SYSTEM. A PROBE ASKS THE WORLD A QUESTION IT CAN ANSWER DIFFERENTLY.** **DIFFERENT FUTURES BREAK AN EQUIVALENCE BEFORE THEY PROVE A CAUSE.**
+
+---
+
+## [THE THIRTEENTH CUP IS AN OPENING](the-thirteenth-cup-is-an-opening.md)
+
+The 13th Cup receives a topological refinement from the completion-move mathal. Three worlds may all add one identical node while producing different incidence/reachability depending on whether the node remains isolated, attaches as a leaf, or enters by peeling an existing edge. So **completion may be an incidence move rather than an inventory move**. The server's `OPEN BERTH` is therefore the maintained possibility of lawful arrival, not automatic membership or inherited authority. National Treasure keeps `rim` and `opening` separate—boundary versus declared crossing—and adds a historical bounty that explicitly forbids hunting symbolic `13` first. Dogram owns the boring `COMPLETION-MOVE-001` control; LOADOUT owns the server/session constitution. Working seals: **THE THIRTEENTH MAY BE THE OPENING, NOT THE EXTRA OBJECT.** **A WORLD CAN REMEMBER HOW TO RECEIVE NOVELTY WITHOUT DECIDING IN ADVANCE WHAT THE NOVELTY MUST BECOME.**
