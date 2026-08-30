@@ -18,3 +18,11 @@ The Memento seal is:
 > **GIT IS THE SCAR THAT REMEMBERS THE CROSSING.**
 
 The slice keeps Git fact, human testimony, inference, and speculation explicitly separate.
+
+## [MEMORY IS TERRAIN](memory-is-terrain.md)
+
+A bounded Curiosity Thread Scout carrying the same fossil insight through four independent control families: extended cognition, stigmergy, niche construction, and executable software history.
+
+Its strongest testable claim is not merely that Git remembers, but that **a conversation can alter the environment in which a future conversation thinks**. The slice preserves the counterevidence, the scar-tissue hypothesis, Particular Treasure's future-discriminator angle, and three executable next moves: `TERRAIN-MEMORY-001`, `SCAR-ARCHAEOLOGY-001`, and a conversation→commit ancestry sample.
+
+> **The repository may be less like a notebook full of memories and more like a trail system: earlier walkers change which paths later walkers can see, take, refuse, and extend.**
