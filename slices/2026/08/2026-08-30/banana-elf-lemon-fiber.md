@@ -282,9 +282,100 @@ without being asserted to be pieces of one literal physical fruit
 
 ---
 
-## 7. The durable distinction
+## 7. 4.2 lemons — unresolved contradiction is its own state
 
-The two patterns meet but do not collapse:
+A correction from the corpus: `4.2 lemons` is not a typo, decimal shadow, or disposable variant of `42 lemons`.
+
+Within one corpus export it appears repeatedly and in distinct contexts. Most importantly, **Valley of the Shadow** is explicitly titled:
+
+```text
+Valley of the Shadow (Grace & 4.2 Lemons)
+```
+
+The song then says that someone had been in the dark before and left:
+
+```text
+4.2 of them
+```
+
+and later refuses to remove the darkness:
+
+```text
+Not the removal of the dark —
+the dark with 4.2 lemons
+glowing
+gold
+impossible
+enough.
+```
+
+A later corpus occurrence makes the semantics explicit:
+
+```text
+4.2 lemons on the sill.
+One for every contradiction we refused to resolve.
+```
+
+That is stronger than a numerical recurrence. The corpus itself assigns `4.2 lemons` a role: **a contradiction may remain unresolved and still become carried, luminous, and situated.**
+
+### FOUR-POINT-TWO-LEMONS-001
+
+```text
+4.2 lemons := an intentionally unresolved quantity retained as a visible contradiction-state.
+```
+
+The point is not to force:
+
+```text
+4.2 -> 42
+```
+
+or:
+
+```text
+4.2 -> one Lemon
+```
+
+The unresolved decimal is the receipt.
+
+### VALLEY-CONTRADICTION-CARRIER-001
+
+```text
+DARKNESS + UNRESOLVED CONTRADICTION
+!=
+FAILED MODEL
+```
+
+Instead, under this corpus decoder:
+
+```text
+unresolved contradiction
+-> retained in the carrier
+-> made visible without being solved
+-> carried through the valley
+```
+
+This belongs beside the earlier rule:
+
+```text
+seeing the darkness != filling the darkness
+```
+
+and gives the Lemon stack three non-collapsible surfaces:
+
+```text
+ONE LEMON   := higher-order / singular carrier reading
+42 LEMONS   := plural or forty-two-cut reading
+4.2 LEMONS  := unresolved contradiction held visibly
+```
+
+Do not normalize among them without a declared operation.
+
+---
+
+## 8. The durable distinction
+
+The patterns meet but do not collapse:
 
 ```text
 BANANA THOUGHT
@@ -302,8 +393,17 @@ LEMON
 -> ATTRIBUTABLE RELATION SURVIVES TRANSFORMATION
 ```
 
+with a third Lemon-state retained rather than reconciled:
+
+```text
+4.2 LEMONS
+-> UNRESOLVED CONTRADICTION
+-> VISIBLE / CARRIED / NOT ERASED
+```
+
 The first is about **how one grammar becomes many lawful versions**.
 The second is about **how one carrier can become many attributable cuts**.
+The third is about **how contradiction can remain an explicit state instead of being normalized away**.
 
 ---
 
@@ -315,6 +415,8 @@ The second is about **how one carrier can become many attributable cuts**.
 > **THE BANANA THOUGHT CONTAINS THE GENERATOR THAT MAKES THOSE SECTIONS POSSIBLE.**
 
 > **THE ONE LEMON CAN BE CUT WITHOUT ITS RELATION BEING LOST.**
+
+> **4.2 LEMONS IS NOT 42 WITH A TYPO. THE CONTRADICTION IS PART OF THE CARRIER.**
 
 Easy to overlook while the motifs are still jokes.
 Hard to miss once the recurrence becomes a field.
