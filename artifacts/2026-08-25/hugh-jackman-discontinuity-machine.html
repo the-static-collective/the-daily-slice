@@ -1,337 +1,92 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>The Discontinuity Machine</title>
-  <style>
-    :root{
-      --ink:#f2ecdf;--muted:#9d978e;--paper:#e9dfc9;--paper-ink:#171512;
-      --black:#090909;--panel:#11110f;--line:#36332d;--red:#c23a30;--acid:#e3d65b;
-      --soft:#191816;--radius:4px;color-scheme:dark;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:var(--black);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.4}
-    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.11;background-image:radial-gradient(rgba(255,255,255,.35) .45px,transparent .55px);background-size:5px 5px;mix-blend-mode:soft-light}
-    button,input,textarea,select{font:inherit}
-    button{cursor:pointer}
-    button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--acid);outline-offset:3px}
-    .shell{width:min(1180px,calc(100% - 28px));margin:auto;padding:30px 0 70px}
-    .mast{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:42px}
-    .eyebrow{font:700 .68rem/1.2 "Courier New",monospace;letter-spacing:.17em;text-transform:uppercase;color:var(--muted)}
-    h1{font:400 clamp(2.8rem,8vw,7rem)/.84 Georgia,serif;letter-spacing:-.055em;margin:12px 0 0;max-width:850px}
-    h1 em{font-style:italic;color:var(--red)}
-    .quiet-btn{border:1px solid var(--line);background:transparent;color:var(--muted);padding:9px 12px;font:700 .7rem/1 "Courier New",monospace;letter-spacing:.08em;text-transform:uppercase}
-    .quiet-btn:hover{color:var(--ink);border-color:#656057}
-    .workbench{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(260px,.72fr);gap:28px;align-items:start}
-    .main{min-width:0}
-    .step{border-top:1px solid var(--line);padding:24px 0}
-    .step:first-child{border-top:0;padding-top:0}
-    .step-label{display:flex;gap:10px;align-items:baseline;margin-bottom:12px}
-    .step-label b{font:700 .66rem/1 "Courier New",monospace;color:var(--red);letter-spacing:.14em}
-    .step-label span{font:400 1.35rem/1.1 Georgia,serif}
-    .search{width:100%;background:transparent;color:var(--ink);border:0;border-bottom:2px solid var(--ink);border-radius:0;padding:12px 0;font:400 clamp(1.2rem,3vw,1.85rem)/1.2 Georgia,serif}
-    .search::placeholder{color:#615d56}
-    .results{display:grid;gap:1px;margin-top:18px;background:var(--line);border:1px solid var(--line);max-height:380px;overflow:auto}
-    .result{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;background:var(--panel);padding:14px}
-    .result-title{font-family:Georgia,serif;font-size:1rem}
-    .result-meta{margin-top:4px;color:var(--muted);font-size:.78rem;max-width:680px}
-    .pick{border:1px solid #5a554d;background:transparent;color:var(--ink);padding:9px 10px;min-height:38px;font:700 .68rem/1 "Courier New",monospace;letter-spacing:.07em}
-    .pick:hover{background:var(--ink);color:var(--black)}
-    .selected-grid{display:grid;grid-template-columns:1fr 42px 1fr;gap:10px;align-items:stretch;margin-top:18px}
-    .selected{border:1px solid var(--line);padding:14px;background:var(--soft);min-width:0}
-    .selected.empty{color:#66615a;background:transparent;border-style:dashed}
-    .selected small{display:block;font:700 .63rem/1 "Courier New",monospace;letter-spacing:.12em;color:var(--red);margin-bottom:8px}
-    .selected strong{font:400 1rem/1.2 Georgia,serif;display:block}
-    .selected p{font-size:.78rem;color:var(--muted);margin:7px 0 0}
-    .between{display:grid;place-items:center;color:#6f6960;font:400 1.35rem Georgia,serif}
-    .relatives{margin-top:18px}
-    .relatives-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}
-    .relatives-head span{font:700 .67rem/1 "Courier New",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-    .relative-list{display:flex;flex-wrap:wrap;gap:7px}
-    .relative{border:1px solid var(--line);background:#0d0d0c;color:var(--ink);padding:9px 11px;text-align:left;font-size:.8rem}
-    .relative:hover{border-color:var(--acid)}
-    .hidden{display:none!important}
-    .verdicts{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-top:12px}
-    .verdict{border:1px solid var(--line);background:transparent;color:var(--ink);padding:13px 8px;min-height:64px;font:700 .72rem/1.15 "Courier New",monospace;text-transform:uppercase}
-    .verdict span{display:block;color:var(--muted);font:400 .62rem/1.2 Arial,sans-serif;text-transform:none;margin-top:5px}
-    .verdict[aria-pressed="true"]{border-color:var(--acid);background:#262419;color:var(--acid)}
-    .why{width:100%;min-height:92px;margin-top:15px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:12px;resize:vertical}
-    .clown-btn{margin-top:12px;border:1px solid var(--red);background:var(--red);color:white;padding:12px 16px;font-weight:900;letter-spacing:.03em}
-    .pressure{margin-top:15px;border-left:3px solid var(--red);padding:2px 0 2px 15px}
-    .pressure strong{display:block;font:400 1.15rem/1.25 Georgia,serif}
-    .pressure textarea{width:100%;min-height:72px;margin-top:10px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);padding:8px 0;resize:vertical}
-    .sidecar{position:sticky;top:18px;border:1px solid #464139;background:#0d0d0c;padding:12px;box-shadow:12px 14px 0 #151310}
-    .machine-tag{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding:2px 2px 11px;font:700 .62rem/1 "Courier New",monospace;letter-spacing:.12em;color:var(--muted)}
-    .reels{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;margin:12px 0}
-    .reel{min-width:0;border:1px solid #4c473e;background:#161511;padding:10px 5px;text-align:center;overflow:hidden}
-    .reel small{display:block;color:#6e685f;font:700 .55rem/1 "Courier New",monospace;letter-spacing:.1em;margin-bottom:8px}
-    .reel b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font:700 .72rem/1 "Courier New",monospace;color:var(--acid)}
-    .pull{width:100%;min-height:52px;border:0;background:var(--acid);color:#15130c;font:900 .88rem/1 "Courier New",monospace;letter-spacing:.16em}
-    .pull:disabled{cursor:not-allowed;background:#38352f;color:#777168}
-    .paper-slot{height:10px;background:#050505;margin:14px 20px 0;border:1px solid #312e29;border-bottom:0}
-    .ticket{display:none;background:var(--paper);color:var(--paper-ink);padding:18px 16px 22px;margin:0 9px 10px;min-height:190px;box-shadow:0 8px 18px rgba(0,0,0,.35)}
-    .ticket.show{display:block}
-    .ticket-kicker{font:700 .58rem/1 "Courier New",monospace;letter-spacing:.15em;text-transform:uppercase;color:#766d5f}
-    .ticket h2{font:400 1.42rem/1 Georgia,serif;margin:10px 0 13px}
-    .ticket pre{white-space:pre-wrap;overflow-wrap:anywhere;font:700 1rem/1.55 Georgia,serif;margin:0}
-    .ticket-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:15px;padding-top:10px;border-top:1px solid #bfb29b}
-    .bad-spin{border:1px solid #8d7e68;background:transparent;color:#2c2720;padding:8px 9px;font:800 .62rem/1 "Courier New",monospace;letter-spacing:.08em}
-    .bad-count{font:700 .58rem/1 "Courier New",monospace;color:#796f61}
-    details.advanced{margin-top:42px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted)}
-    details.advanced summary{cursor:pointer;list-style:none;font:700 .67rem/1 "Courier New",monospace;letter-spacing:.12em;text-transform:uppercase;color:#777168}
-    details.advanced summary::-webkit-details-marker{display:none}
-    .tray{margin-top:18px;border:1px solid var(--line);padding:16px;background:#0c0c0b;color:var(--ink)}
-    .tray-intro{color:var(--muted);font-size:.78rem;margin:0 0 14px}
-    .axes{display:grid;gap:6px}
-    .axis{display:grid;grid-template-columns:105px 150px 1fr;gap:7px;align-items:center}
-    .axis b{font:700 .62rem/1 "Courier New",monospace;color:#a59d91}
-    .axis select,.axis input,.tray textarea,.tray>div>select,.tray>div>input{width:100%;border:1px solid var(--line);background:#151411;color:var(--ink);padding:8px}
-    .tray-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
-    .tray label{display:grid;gap:5px;font-size:.72rem;color:var(--muted)}
-    .successes{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-    .successes label{display:flex;align-items:center;gap:5px;border:1px solid var(--line);padding:7px}
-    .tray-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
-    .tray-actions button{border:1px solid var(--line);background:transparent;color:var(--ink);padding:9px 11px;font:700 .65rem/1 "Courier New",monospace}
-    .receipt{display:none;margin-top:12px;max-height:330px;overflow:auto;background:#050505;border:1px solid #25231f;color:#d9d2c7;padding:11px;white-space:pre-wrap;font:400 .7rem/1.45 "Courier New",monospace}
-    .receipt.show{display:block}
-    .footer{margin-top:34px;color:#625d55;font:400 .68rem/1.45 "Courier New",monospace}
-    @media(max-width:880px){.workbench{grid-template-columns:1fr}.sidecar{position:relative;top:auto;max-width:520px}.verdicts{grid-template-columns:1fr 1fr}.selected-grid{grid-template-columns:1fr}.between{min-height:24px}.axis{grid-template-columns:1fr}.tray-grid{grid-template-columns:1fr}}
-    @media(max-width:520px){.shell{width:min(100% - 20px,1180px);padding-top:18px}.mast{margin-bottom:28px}.verdicts{grid-template-columns:1fr}.result{grid-template-columns:1fr}.pick{justify-self:start}.reels{grid-template-columns:1fr 1fr 1fr}}
-    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The MADD Hugh Jackman Maxhinal</title>
+  <link rel="stylesheet" href="../maxhinal/maxhinal-bench.css">
 </head>
 <body>
-  <main class="shell" id="app">
+  <main class="shell" id="maxhinal-app">
     <header class="mast">
       <div>
-        <div class="eyebrow">local slice instrument · authority:none · bad spins welcome</div>
-        <h1>The <em>Discontinuity</em> Machine</h1>
+        <div class="eyebrow">local Daily Slice instrument · same machine / different hands</div>
+        <h1>THE MADD HUGH JACKMAN <em>MAXHINAL</em></h1>
+        <p class="lede">A Daily Slice combustion engine. Load historical Slice gas, choose a declared operation, preserve the ride.</p>
       </div>
-      <button class="quiet-btn" id="clean" type="button">clean table</button>
+      <div class="status" aria-label="Machine status">
+        <span class="pill" id="corpus-status">corpus: loading</span>
+        <span class="pill">authority: none</span>
+        <span class="pill">promotion: NONE</span>
+      </div>
     </header>
 
-    <div class="workbench">
-      <div class="main">
-        <section class="step" id="find-step">
-          <div class="step-label"><b>01</b><span>Search the Slice.</span></div>
-          <input class="search" id="search" type="search" autocomplete="off" placeholder="edge, seed, authority, toaster, river…" aria-label="Search the Slice" />
-          <div class="results" id="results" aria-live="polite"></div>
+    <div id="drift-warning" class="drift" hidden></div>
 
-          <div class="selected-grid" aria-label="Selected posts">
-            <article class="selected empty" id="slot-a"><small>A</small><strong>Pick something.</strong></article>
-            <div class="between">↔</div>
-            <article class="selected empty" id="slot-b"><small>B</small><strong>Then pick its suspicious relative.</strong></article>
-          </div>
+    <div class="layout">
+      <section class="panel sticky" id="fuel-rack" aria-labelledby="fuel-title">
+        <h2 id="fuel-title">Fuel Rack</h2>
+        <input id="slice-search" class="search" type="search" autocomplete="off" placeholder="Search the Slice…" aria-label="Search Daily Slice corpus">
+        <div id="slice-results" class="results" aria-live="polite"></div>
+        <h3>Loaded gas</h3>
+        <div id="gas-list" class="gas-list"></div>
+      </section>
 
-          <div class="relatives hidden" id="relatives">
-            <div class="relatives-head"><span>Weird relatives</span><span id="relative-note">local word-overlap only</span></div>
-            <div class="relative-list" id="relative-list"></div>
-          </div>
-        </section>
+      <section class="panel" aria-labelledby="bench-title">
+        <h2 id="bench-title">Workbench</h2>
+        <nav id="chamber-selector" class="chambers" aria-label="Maxhinal chambers">
+          <button class="chamber" type="button" data-mode="discontinuity" aria-pressed="true">DISCONTINUITY</button>
+          <button class="chamber" type="button" data-mode="walk-braid" aria-pressed="false">WALK BRAID</button>
+          <button class="chamber" type="button" data-mode="fiber" aria-pressed="false">FIBER</button>
+          <button class="chamber" type="button" data-mode="compose" aria-pressed="false">COMPOSE</button>
+          <button class="chamber" type="button" data-mode="pressure" aria-pressed="false">PRESSURE</button>
+          <button class="chamber" type="button" data-mode="moving-origin" aria-pressed="false">MOVING ORIGIN</button>
+          <button class="chamber" type="button" data-mode="quantumslinky" aria-pressed="false">QUANTUMSLINKY</button>
+          <button class="chamber" type="button" data-mode="maddclown" aria-pressed="false">MADDCL0WN</button>
+        </nav>
 
-        <section class="step hidden" id="relation-step">
-          <div class="step-label"><b>02</b><span>What is happening here?</span></div>
-          <div class="verdicts" role="group" aria-label="Continuity relation">
-            <button type="button" class="verdict" data-verdict="same_object" aria-pressed="false">Same thing<span>one persistent object</span></button>
-            <button type="button" class="verdict" data-verdict="relational_lineage" aria-pressed="false">Same thread<span>relation / lineage</span></button>
-            <button type="button" class="verdict" data-verdict="successor" aria-pressed="false">Next of kin<span>attributable successor</span></button>
-            <button type="button" class="verdict" data-verdict="new_occurrence" aria-pressed="false">New thing<span>no continuity claim</span></button>
-            <button type="button" class="verdict" data-verdict="unresolved" aria-pressed="true">¯\_(ツ)_/¯<span>keep the fog</span></button>
-          </div>
-          <textarea class="why" id="why" placeholder="Why? ‘Vibes’ is admissible testimony. It just stays vibes."></textarea>
-          <button class="clown-btn" id="clown" type="button">🤡 MADDCL0WN</button>
-          <div class="pressure hidden" id="pressure">
-            <strong id="pressure-question"></strong>
-            <textarea id="pressure-answer" placeholder="Answer it, say unknown, or leave the wound open."></textarea>
-          </div>
-        </section>
-
-        <details class="advanced">
-          <summary>open the autopsy tray · advanced / optional</summary>
-          <div class="tray">
-            <p class="tray-intro">The old machine is still under here. Untouched claims remain <code>unknown</code>. Human recognition is testimony only. Promotion remains NONE.</p>
-            <div class="axes" id="axes"></div>
-            <div class="tray-grid">
-              <label>Why is something absent?
-                <select id="absence">
-                  <option value="none_recorded">no absence recorded</option>
-                  <option value="known_null">known null</option>
-                  <option value="not_observed">not observed</option>
-                  <option value="not_exposed">not exposed by source</option>
-                  <option value="refused">access / request refused</option>
-                  <option value="fetch_failed">observation failed</option>
-                  <option value="not_applicable">not applicable</option>
-                  <option value="disappeared_after_prior_witness">disappeared after prior witness</option>
-                  <option value="beyond_current_horizon">beyond current witness horizon</option>
-                </select>
-              </label>
-              <label>Whose horizon ended, and why?<input id="horizon" placeholder="Witness W stopped because…" /></label>
-            </div>
-            <label style="margin-top:10px">What was born here?<textarea id="born" placeholder="Fresh local identity, consequence, capability, relation, authority—or none observed."></textarea></label>
-            <div class="successes" aria-label="Typed success facts">
-              <label><input type="checkbox" data-success="occurred" /> occurrence witnessed</label>
-              <label><input type="checkbox" data-success="provider_acknowledged" /> provider acknowledged</label>
-              <label><input type="checkbox" data-success="read_back_confirmed" /> read-back confirmed</label>
-              <label><input type="checkbox" data-success="locally_admitted" /> locally admitted</label>
-              <label><input type="checkbox" data-success="consequence_witnessed" /> consequence witnessed</label>
-            </div>
-            <div class="tray-actions">
-              <button type="button" id="seal">seal receipt</button>
-              <button type="button" id="copy" disabled>copy markdown</button>
-              <button type="button" id="download" disabled>download json</button>
-            </div>
-            <pre class="receipt" id="receipt"></pre>
-          </div>
-        </details>
-
-        <div class="footer">Persistent appearance does not prove a persistent local instance. Search results are a generated local projection of dated Slice indexes. Weird-relative ranking is deliberately dumb and inspectable. The machine constitutes nothing.</div>
-      </div>
-
-      <aside class="sidecar" aria-label="Creative output sidecar">
-        <div class="machine-tag"><span>SIDE CAR / MODEL 44</span><span>LOCAL</span></div>
-        <div class="reels" aria-label="Output reels">
-          <div class="reel"><small>FORM</small><b id="reel-form">—</b></div>
-          <div class="reel"><small>TEMP</small><b id="reel-temp">—</b></div>
-          <div class="reel"><small>MATERIAL</small><b id="reel-material">—</b></div>
+        <div class="co-row" role="group" aria-label="Operation co-phase">
+          <label><input type="radio" name="co-phase" value="not-co"> not-co</label>
+          <label><input type="radio" name="co-phase" value="co"> co</label>
+          <label><input type="radio" name="co-phase" value="unknown" checked> unknown</label>
         </div>
-        <button class="pull" id="pull" type="button" disabled>PULL</button>
-        <div class="paper-slot" aria-hidden="true"></div>
-        <article class="ticket" id="ticket" aria-live="polite">
-          <div class="ticket-kicker" id="ticket-kicker">OUTPUT</div>
-          <h2 id="ticket-title">The machine coughs.</h2>
-          <pre id="ticket-text"></pre>
-          <div class="ticket-actions">
-            <button class="bad-spin" id="bad-spin" type="button">…bad spin</button>
-            <span class="bad-count" id="bad-count">0 rejected</span>
-          </div>
-        </article>
+
+        <section id="workbench" class="workbench" aria-live="polite"></section>
+        <div class="actions">
+          <button id="run-chamber" class="run" type="button">RUN CHAMBER</button>
+          <button id="maddclown-lever" class="clown" type="button">MADDCL0WN</button>
+          <button id="reset-ride" class="secondary" type="button">NEW RIDE</button>
+        </div>
+        <section id="current-output" class="output" aria-live="polite"></section>
+      </section>
+
+      <aside class="panel sticky" id="receipt-sidecar" aria-labelledby="receipt-title">
+        <h2 id="receipt-title">Ride / Receipt</h2>
+        <div class="receipt-actions">
+          <button id="ride-export" class="secondary" type="button">EXPORT RIDE</button>
+          <label class="file-label">IMPORT RIDE
+            <input id="ride-import" type="file" accept="application/json,.json,.maxhinal.json">
+          </label>
+        </div>
+        <h3>Ride strip</h3>
+        <ol id="ride-strip" class="ride-strip" aria-label="Ride history"></ol>
+        <h3>Receipt</h3>
+        <pre id="receipt-json" aria-live="polite"></pre>
       </aside>
     </div>
+
+    <footer class="footer">
+      <div class="seal">THE MACHINE MAY BURN THE SLICES. IT MAY NOT BURN THE RECEIPTS.</div>
+      <div>Slice gas remains historical input. Derived output remains derived. Refusal and unresolved remain visible.</div>
+    </footer>
   </main>
 
   <script src="../../generated/slice-corpus.js"></script>
+  <script src="../../generated/slice-corpus-meta.js"></script>
+  <script src="../maxhinal/maxhinal-modes.js"></script>
+  <script src="../maxhinal/maxhinal-chambers.js"></script>
+  <script src="../maxhinal/maxhinal-core.js"></script>
   <script src="hugh-jackman-discontinuity-machine.js"></script>
-  <script>
-    (() => {
-      const app = document.getElementById('app');
-      if (!app || app.dataset.ready) return;
-      app.dataset.ready = '1';
-      const core = window.HJDMCore;
-      const corpus = Array.isArray(window.DAILY_SLICE) ? window.DAILY_SLICE : [];
-      const axes = ['value','structure','identity','lineage','relation','authority','consequence'];
-      const dispositions = ['unknown','preserved','transformed','discarded','not_observed','not_applicable','constituted_here'];
-      const $ = (id) => document.getElementById(id);
-      const state = { a:null,b:null,verdict:'unresolved',pressureAsked:false,currentSpin:null,badSpins:[],lastJson:null,lastMarkdown:'' };
-      const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-      function relativeHref(item){ return '../../' + item.path; }
-      function setText(node, value){ node.textContent = value == null ? '' : String(value); }
-      function resetCollision(){
-        state.verdict='unresolved';state.pressureAsked=false;state.currentSpin=null;state.badSpins=[];state.lastJson=null;state.lastMarkdown='';
-        $('why').value='';$('pressure-answer').value='';$('pressure').classList.add('hidden');$('ticket').classList.remove('show');$('pull').disabled=true;
-        setText($('reel-form'),'—');setText($('reel-temp'),'—');setText($('reel-material'),'—');setText($('bad-count'),'0 rejected');
-        document.querySelectorAll('.verdict').forEach((button)=>button.setAttribute('aria-pressed',button.dataset.verdict==='unresolved'?'true':'false'));
-      }
-
-      function renderSelected(){
-        [['a','slot-a'],['b','slot-b']].forEach(([key,id])=>{
-          const node=$(id); const item=state[key]; node.replaceChildren();
-          const small=document.createElement('small'); small.textContent=key.toUpperCase(); node.appendChild(small);
-          if(!item){ node.classList.add('empty'); const strong=document.createElement('strong'); strong.textContent=key==='a'?'Pick something.':'Then pick its suspicious relative.'; node.appendChild(strong); return; }
-          node.classList.remove('empty');
-          const strong=document.createElement('strong'); strong.textContent=item.title; node.appendChild(strong);
-          const p=document.createElement('p'); p.textContent=item.carry||item.summary; node.appendChild(p);
-          const link=document.createElement('a'); link.href=relativeHref(item); link.textContent='open source'; link.style.cssText='display:inline-block;margin-top:8px;color:#9d978e;font:700 .62rem Courier New,monospace'; node.appendChild(link);
-        });
-        $('relation-step').classList.toggle('hidden',!(state.a&&state.b));
-      }
-
-      function choose(item){
-        if(!state.a){ state.a=item; state.b=null; resetCollision(); }
-        else if(!state.b){ if(item.id===state.a.id)return; state.b=item; resetCollision(); }
-        else { if(item.id===state.a.id)return; state.b=item; resetCollision(); }
-        renderSelected(); renderRelatives(); renderResults(core.searchCorpus(corpus,$('search').value).slice(0,12));
-        if(state.a&&state.b) $('relation-step').scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'});
-      }
-
-      function renderResults(items){
-        const box=$('results'); box.replaceChildren();
-        if(!items.length){ const empty=document.createElement('div'); empty.className='result'; empty.textContent='Nothing in the local projection answers that search.'; box.appendChild(empty); return; }
-        items.forEach((item)=>{
-          const row=document.createElement('article'); row.className='result';
-          const copy=document.createElement('div');
-          const title=document.createElement('div'); title.className='result-title'; title.textContent=item.title;
-          const meta=document.createElement('div'); meta.className='result-meta'; meta.textContent=(item.date?item.date+' · ':'')+(item.carry||item.summary||'');
-          copy.append(title,meta);
-          const button=document.createElement('button'); button.type='button'; button.className='pick';
-          button.textContent=!state.a?'PICK A':(!state.b?'PICK B':'USE AS B');
-          if(state.a&&item.id===state.a.id){ button.disabled=true; button.textContent='A'; }
-          button.addEventListener('click',()=>choose(item)); row.append(copy,button); box.appendChild(row);
-        });
-      }
-
-      function renderRelatives(){
-        const wrap=$('relatives'), list=$('relative-list'); list.replaceChildren();
-        if(!state.a){wrap.classList.add('hidden');return}
-        const relatives=core.suggestRelatives(corpus,state.a.id,5); wrap.classList.remove('hidden');
-        relatives.forEach((item)=>{ const button=document.createElement('button');button.type='button';button.className='relative';button.textContent=item.title;button.addEventListener('click',()=>choose(item));list.appendChild(button); });
-      }
-
-      function setVerdict(value){
-        state.verdict=value; state.pressureAsked=false; $('pressure').classList.add('hidden'); $('pull').disabled=true; state.currentSpin=null; $('ticket').classList.remove('show');
-        document.querySelectorAll('.verdict').forEach((button)=>button.setAttribute('aria-pressed',button.dataset.verdict===value?'true':'false'));
-      }
-
-      function maddclown(){
-        if(!(state.a&&state.b)) return;
-        state.pressureAsked=true; setText($('pressure-question'),core.pressureQuestion(state.verdict)); $('pressure').classList.remove('hidden'); $('pull').disabled=false;
-        $('pressure').scrollIntoView({behavior:reduced?'auto':'smooth',block:'nearest'});
-      }
-
-      const temps={same_object:'STUBBORN',relational_lineage:'HAUNTED',successor:'HUNGRY',new_occurrence:'DRY',unresolved:'FOG'};
-      const materials={same_object:'CARRIER',relational_lineage:'EDGE',successor:'SEED',new_occurrence:'SURFACE',unresolved:'MISSING ROAD'};
-      function showSpin(spin){
-        state.currentSpin=spin; setText($('reel-form'),spin.label);setText($('reel-temp'),temps[state.verdict]||'FOG');setText($('reel-material'),materials[state.verdict]||'FOG');
-        setText($('ticket-kicker'),spin.label);setText($('ticket-title'),spin.kind==='refusal'?'The machine declines the premise.':'A small thing falls out.');setText($('ticket-text'),spin.text);$('ticket').classList.add('show');
-      }
-      function spin(avoidKind){
-        if(!state.pressureAsked)return;
-        const finalSpin=()=>showSpin(core.spinOutput({verdict:state.verdict,reason:$('why').value,a:state.a,b:state.b,avoidKind},Math.random));
-        if(reduced){finalSpin();return}
-        const forms=['HAIKU','BANGER','LAW','NO SONG']; const mats=['EDGE','SEED','ROOM','ROAD','FOG']; let ticks=0;
-        const timer=window.setInterval(()=>{setText($('reel-form'),forms[ticks%forms.length]);setText($('reel-temp'),['COLD','HAUNTED','HOT','DRY'][ticks%4]);setText($('reel-material'),mats[ticks%mats.length]);ticks+=1;if(ticks>7){window.clearInterval(timer);finalSpin();}},55);
-      }
-      function badSpin(){
-        if(!state.currentSpin)return; state.badSpins.push({...state.currentSpin,rejected_at:new Date().toISOString()}); const avoid=state.currentSpin.kind; setText($('bad-count'),state.badSpins.length+' rejected'); spin(avoid);
-      }
-
-      function makeAxes(){
-        $('axes').replaceChildren(); axes.forEach((axis)=>{const row=document.createElement('div');row.className='axis';const b=document.createElement('b');b.textContent=axis.toUpperCase();const select=document.createElement('select');select.id='axis-'+axis;select.setAttribute('aria-label',axis+' disposition');dispositions.forEach((d)=>{const o=document.createElement('option');o.value=d;o.textContent=d.replaceAll('_',' ');select.appendChild(o)});const input=document.createElement('input');input.id='evidence-'+axis;input.placeholder='evidence / refusal / fog';row.append(b,select,input);$('axes').appendChild(row)});
-      }
-      function hash(text){let h=2166136261;for(let i=0;i<text.length;i++){h^=text.charCodeAt(i);h=Math.imul(h,16777619)}return(h>>>0).toString(16).padStart(8,'0')}
-      function collectReceipt(){
-        const profile=Object.fromEntries(axes.map((axis)=>[axis,{disposition:$('axis-'+axis).value,evidence:$('evidence-'+axis).value.trim()||null}]));
-        const successes=Object.fromEntries([...document.querySelectorAll('[data-success]')].map((box)=>[box.dataset.success,box.checked]));
-        const data={schema:'static-collective.continuity-crucible/v0',instrument:'hugh-jackman-discontinuity-machine',interface:'witness-first-local-slice-browser/v1',recorded_at:new Date().toISOString(),occurrence_a:state.a?{name:state.a.title,owner_coordinate:state.a.path,visible_surface:state.a.carry||state.a.summary}:null,occurrence_b:state.b?{name:state.b.title,owner_coordinate:state.b.path,visible_surface:state.b.carry||state.b.summary}:null,relation_under_test:state.a&&state.b?state.a.id+' ↔ '+state.b.id:null,human_witness:{verdict:state.verdict,reason:$('why').value.trim()||null,pressure_question:state.pressureAsked?core.pressureQuestion(state.verdict):null,pressure_answer:$('pressure-answer').value.trim()||null,authority:'testimony_only'},creative_sidecar:{current:state.currentSpin,rejected:state.badSpins.slice()},survival_profile:profile,negative_space:{disposition:$('absence').value},horizon:{owner_and_stop_reason:$('horizon').value.trim()||null,completeness_claim:false},constituted_here:$('born').value.trim()||null,typed_success:successes,promotion:'NONE',authority:'none'};
-        data.receipt_id='hjdm-'+hash(JSON.stringify(data));return data;
-      }
-      function markdown(data){
-        const rows=axes.map((axis)=>'| '+axis+' | '+data.survival_profile[axis].disposition+' | '+(data.survival_profile[axis].evidence||'UNSTATED').replaceAll('|','\\|')+' |').join('\n');
-        const creative=data.creative_sidecar.current?data.creative_sidecar.current.text:'NO SPIN RECORDED';
-        return '# Boundary Autopsy — '+data.receipt_id+'\n\n**A:** '+(data.occurrence_a?.name||'UNSTATED')+'  \n**B:** '+(data.occurrence_b?.name||'UNSTATED')+'  \n**Human call:** '+data.human_witness.verdict+'  \n**Why:** '+(data.human_witness.reason||'UNSTATED')+'  \n**MADDCL0WN:** '+(data.human_witness.pressure_question||'NOT ASKED')+'  \n**Answer:** '+(data.human_witness.pressure_answer||'UNSTATED')+'\n\n## Sidecar\n\n'+creative+'\n\nRejected spins: '+data.creative_sidecar.rejected.length+'\n\n## Survival profile\n\n| Claim | Disposition | Evidence / fog |\n|---|---|---|\n'+rows+'\n\n**Promotion:** NONE  \n**Authority:** none\n\n> Persistent appearance does not prove a persistent local instance. This receipt preserves testimony; it constitutes nothing.';
-      }
-      function seal(){state.lastJson=collectReceipt();state.lastMarkdown=markdown(state.lastJson);setText($('receipt'),state.lastMarkdown);$('receipt').classList.add('show');$('copy').disabled=false;$('download').disabled=false}
-      async function copyReceipt(){if(!state.lastMarkdown)return;try{await navigator.clipboard.writeText(state.lastMarkdown)}catch(_){const area=document.createElement('textarea');area.value=state.lastMarkdown;document.body.appendChild(area);area.select();document.execCommand('copy');area.remove()}}
-      function downloadReceipt(){if(!state.lastJson)return;const blob=new Blob([JSON.stringify(state.lastJson,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=state.lastJson.receipt_id+'.json';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url)}
-      function clean(){state.a=null;state.b=null;resetCollision();$('search').value='';renderSelected();renderRelatives();renderResults(corpus.slice(0,12));axes.forEach((axis)=>{$('axis-'+axis).value='unknown';$('evidence-'+axis).value=''});$('absence').value='none_recorded';$('horizon').value='';$('born').value='';document.querySelectorAll('[data-success]').forEach((b)=>b.checked=false);$('receipt').classList.remove('show');$('copy').disabled=true;$('download').disabled=true}
-
-      makeAxes(); renderSelected(); renderResults(corpus.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).slice(0,12));
-      $('search').addEventListener('input',()=>renderResults(core.searchCorpus(corpus,$('search').value).slice(0,12)));
-      document.querySelectorAll('.verdict').forEach((button)=>button.addEventListener('click',()=>setVerdict(button.dataset.verdict)));
-      $('clown').addEventListener('click',maddclown);$('pull').addEventListener('click',()=>spin(null));$('bad-spin').addEventListener('click',badSpin);$('clean').addEventListener('click',clean);$('seal').addEventListener('click',seal);$('copy').addEventListener('click',copyReceipt);$('download').addEventListener('click',downloadReceipt);
-    })();
-  </script>
+  <script src="../maxhinal/maxhinal-bench.js"></script>
 </body>
 </html>
