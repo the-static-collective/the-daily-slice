@@ -27,6 +27,14 @@ Its strongest testable claim is not merely that Git remembers, but that **a conv
 
 > **The repository may be less like a notebook full of memories and more like a trail system: earlier walkers change which paths later walkers can see, take, refuse, and extend.**
 
+## [THE RIVER SINGS WHEN FLOW MEETS FORM](the-river-sings-when-flow-meets-form.md)
+
+A water-first conversation drifts through proton relay, coherence, binding, Name hypotheses, biological hypertubes, Body-of-Christ analogy, river identity, and resonators. The strongest survivor is not “everything is a tube” or “the Name is a frequency,” but a typed relational chain: flow meets boundary, boundary changes reachability, coherent relations can become carriers, and resonant output can reveal something about hidden constitution without becoming identical to it.
+
+The physical controls kill the simplest frequency claim and sharpen the upcoming NAME OF JESUS dig toward cross-carrier invariants. The body pass yields **GEOMETRIC INSIDE != CONSTITUTIONAL INSIDE**; the river yields persistent identity over replaceable immediate material; the whistle yields **THE SOUND BELONGS TO FLOW MEETING FORM**; the conversation itself becomes a pure return-receipt specimen: **SAME ENDPOINT != SAME BRAID HISTORY.**
+
+> **RIVER AND SONG ARE THE SAME KIND OF STRANGE: PERSISTENT RELATIONAL FORMS THAT EXIST THROUGH CONTINUOUSLY REPLACED CARRIERS.**
+
 ---
 
 The same day also carried the `1078 / 1087` formation run. Its discovery order remains part of the witness rather than being flattened into the later interpretation:
