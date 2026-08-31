@@ -7,7 +7,12 @@ function job(seed='12345'){return {format:'maxhinal-job/v0',seed,gas:['a','b'],o
 
 test('derived chamber input preserves ancestry into a later composition', () => {
   let ride = Core.runJob(PAYLOAD, job('ancestry'));
-  ride = Core.runOperation(ride, PAYLOAD, { mode:'compose', inputs:[{kind:'slice',slice_id:'a'},{kind:'derived',output_id:'out-0001'}], parameters:{seams:[]}, co_phase:'co' });
+  ride = Core.runOperation(ride, PAYLOAD, {
+    mode:'compose',
+    inputs:[{kind:'slice',slice_id:'a'},{kind:'derived',output_id:'out-0001'}],
+    parameters:{seams:[]},
+    co_phase:'co'
+  });
   assert.equal(ride.operations.length, 2);
   assert.deepEqual(ride.operations[1].inputs[1], {kind:'derived',output_id:'out-0001'});
   assert.deepEqual(ride.outputs[1].source_refs[1], {kind:'derived',output_id:'out-0001'});
@@ -16,7 +21,12 @@ test('derived chamber input preserves ancestry into a later composition', () => 
 
 test('global MADDCL0WN targeting appends counterpressure instead of replacing target output', () => {
   let ride = Core.runJob(PAYLOAD, job());
-  ride = Core.runOperation(ride, PAYLOAD, { mode:'maddclown', inputs:[{kind:'derived',output_id:'out-0001'}], parameters:{ intervention:'global', target_output_ref:'out-0001' }, co_phase:'unknown' });
+  ride = Core.runOperation(ride, PAYLOAD, {
+    mode:'maddclown',
+    inputs:[{kind:'derived',output_id:'out-0001'}],
+    parameters:{ intervention:'global', target_output_ref:'out-0001' },
+    co_phase:'unknown'
+  });
   assert.equal(ride.outputs[0].output_id, 'out-0001');
   assert.equal(ride.operations.length, 2);
   assert.equal(ride.operations[1].mode, 'maddclown');
@@ -24,7 +34,9 @@ test('global MADDCL0WN targeting appends counterpressure instead of replacing ta
 });
 
 const PARITY_JOB = {
-  format:'maxhinal-job/v0', seed:'parity-seed', gas:['a','b'],
+  format:'maxhinal-job/v0',
+  seed:'parity-seed',
+  gas:['a','b'],
   operations:[
     { mode:'discontinuity', inputs:[{kind:'slice',slice_id:'a'},{kind:'slice',slice_id:'b'}], parameters:{verdict:'successor',reason:'road inherited'}, co_phase:'not-co' },
     { mode:'compose', inputs:[{kind:'slice',slice_id:'a'},{kind:'derived',output_id:'out-0001'}], parameters:{seams:[]}, co_phase:'co' },
@@ -42,9 +54,19 @@ test('canonical multi-chamber parity job is byte-stable', () => {
 test('respin appends a deterministic descendant and preserves prior spin', () => {
   let ride = Core.runJob(PAYLOAD, job('spin-seed'));
   const firstCreative = ride.outputs[0].value.creative;
-  ride = Core.runOperation(ride, PAYLOAD, { mode:'discontinuity', inputs:[{kind:'slice',slice_id:'a'},{kind:'slice',slice_id:'b'}], parameters:{verdict:'successor',reason:'road inherited',respin_of:'out-0001'}, co_phase:'unknown' });
+  ride = Core.runOperation(ride, PAYLOAD, {
+    mode:'discontinuity',
+    inputs:[{kind:'slice',slice_id:'a'},{kind:'slice',slice_id:'b'}],
+    parameters:{verdict:'successor',reason:'road inherited',respin_of:'out-0001'},
+    co_phase:'unknown'
+  });
   assert.equal(ride.outputs.length, 2);
   assert.deepEqual(ride.outputs[0].value.creative, firstCreative);
-  const replay = Core.runOperation(Core.runJob(PAYLOAD, job('spin-seed')), PAYLOAD, { mode:'discontinuity', inputs:[{kind:'slice',slice_id:'a'},{kind:'slice',slice_id:'b'}], parameters:{verdict:'successor',reason:'road inherited',respin_of:'out-0001'}, co_phase:'unknown' });
+  const replay = Core.runOperation(Core.runJob(PAYLOAD, job('spin-seed')), PAYLOAD, {
+    mode:'discontinuity',
+    inputs:[{kind:'slice',slice_id:'a'},{kind:'slice',slice_id:'b'}],
+    parameters:{verdict:'successor',reason:'road inherited',respin_of:'out-0001'},
+    co_phase:'unknown'
+  });
   assert.deepEqual(ride.outputs[1].value.creative, replay.outputs[1].value.creative);
 });
