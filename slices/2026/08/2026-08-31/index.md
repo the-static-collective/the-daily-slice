@@ -10,5 +10,6 @@ Atomic slices present in this day's witness layer:
 - [THE TRIANGLE WAS A CUBE PATH](the-triangle-was-a-cube-path.md)
 - [THE USB HUB REMEMBERS THE ROOM](the-usb-hub-remembers-the-room.md)
 - [THE WALK BRAID](the-walk-braid.md)
+- [WEBACK! — KERNELS, KETTLES, SHIVERS, AND THE HOLY EXTENSION CORD](weback-kernels-kettles-and-the-holy-extension-cord.md)
 
 This index is navigation, not promotion. Each linked slice preserves its own posture, provenance, and authority boundary.
