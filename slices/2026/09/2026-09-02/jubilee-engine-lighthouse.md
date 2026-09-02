@@ -162,7 +162,7 @@ If that survives hostile pressure, it may provide the handoff primitive that the
 
 ## Source roads
 
-- [`Jubilee Engine Lighthouse Design`](../../../..//docs/superpowers/specs/2026-09-02-jubilee-engine-lighthouse-design.md) — approved design witness; formation contract for this slice.
+- [`Jubilee Engine Lighthouse Design`](../../../../docs/superpowers/specs/2026-09-02-jubilee-engine-lighthouse-design.md) — approved design witness; formation contract for this slice.
 - Earlier Daily Slice triadic and Y-traversal work remains historical ancestry and pressure material; resemblance does not itself establish derivation.
 - The port repositories named below retain their own constitutional authority.
 
@@ -199,7 +199,7 @@ The construction must narrow, split, or die if the ports cannot reproduce its di
 
 ## Threads touched
 
-- [`Jubilee Engine Lighthouse`](../../../../../threads/jubilee-engine-lighthouse.md)
+- [`Jubilee Engine Lighthouse`](../../../../threads/jubilee-engine-lighthouse.md)
 
 ## Residual questions
 
@@ -217,7 +217,7 @@ This file is the dated public formation witness. It does not own another project
 
 The approved design boundary lives at:
 
-[`docs/superpowers/specs/2026-09-02-jubilee-engine-lighthouse-design.md`](../../../..//docs/superpowers/specs/2026-09-02-jubilee-engine-lighthouse-design.md)
+[`docs/superpowers/specs/2026-09-02-jubilee-engine-lighthouse-design.md`](../../../../docs/superpowers/specs/2026-09-02-jubilee-engine-lighthouse-design.md)
 
 Each port owns only its local pressure and any later locally admitted result.
 
