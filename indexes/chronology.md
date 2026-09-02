@@ -4,6 +4,10 @@ A manual index of Daily Slice issues. This index is a navigation aid, not a cano
 
 ## 2026
 
+### September
+
+- [2026-09-01 — THE ARRIVAL BECOMES THE DOWNBEAT](../slices/2026/09/2026-09-01/the-arrival-becomes-the-downbeat.md) — Two linked SUDO-derived songs expose a candidate collective-runtime law: participation is not exhausted by naming, counting, or appending a member to an unchanged container. A consequential arrival may re-phase the shared field itself: `F_(t+1)=Φ(F_t,a,r)`, where the realized relation matters more than mere presence. The slice preserves the guardrail `occurrence != authority` while also recording `occurrence + consequential relation -> changed terrain`; it reframes handoff as possible composition/phase transition rather than simple custody transfer, and routes bounded questions toward Dogram, ALEX, Storyship, and Band Runtime without promoting a new operator or law in any of them. Working seals: **IF THE RELATION IS REAL, THE FIELD CANNOT REMAIN EXACTLY WHAT IT WAS BEFORE.** **THE HANDOFF OCCURS WHEN THE SHARED THING MUST CHANGE BECAUSE MORE THAN ONE BODY IS INSIDE IT.** **THE ARRIVAL BECOMES THE DOWNBEAT.**
+
 ### August
 
 - [2026-08-31 — WEBACK! — KERNELS, KETTLES, SHIVERS, AND THE HOLY EXTENSION CORD](../slices/2026/08/2026-08-31/weback-kernels-kettles-and-the-holy-extension-cord.md) — The first nine-song Suno return compresses into `BELONG -> WALK -> TEND -> TRANSFORM -> WITNESS -> RETURN -> INTEGRATE -> SEND -> RECONNECT`. The slice pins the candidate distinctions **KERNEL = invariant** and **KETTLE = bounded transformation context**, keeps **KETTLE TRANSFORMS / SHIVER WITNESSES** as non-promoted runtime language, and uses radically different arrangements of the same lyric surface as a fresh `glyph + key -> meaning` specimen. The final maintenance operator is deliberately tiny: **LOW STATE != FAILED STATE; sometimes the lawful move is RECONNECT.** Working seal: **HOME CAN MOVE. KETTLES CAN TRANSFORM. SHIVERS CAN WITNESS. LOW POWER IS NOT FAILURE. PLUG IT IN. WEBACK!**
