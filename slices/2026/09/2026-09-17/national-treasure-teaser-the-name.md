@@ -284,7 +284,7 @@ The convergence is useful precisely because the domains retain distinct admissio
 - [Grammar of Creation thread](../../../../threads/grammar-of-creation.md)
 - [Hugh Jack Journal — Green Grammar: The Refusal to Collapse](../2026-09-16/hugh-jack-journal-green-grammar-refusal-to-collapse.md)
 - [THE TRIANGULATOR — 3T5 / 325 / 243](../2026-09-16/the-triangulator-3t5-325-243.md)
-- [WE DIDN'T KNOW WHAT TO CALL THIS: WHAT'S IN A NAME?](../../../08/2026-08-27/we-didnt-know-what-to-call-this-whats-in-a-name.md)
+- [WE DIDN'T KNOW WHAT TO CALL THIS: WHAT'S IN A NAME?](../../08/2026-08-27/we-didnt-know-what-to-call-this-whats-in-a-name.md)
 - Fitzpatrick 2011/2012 — DOI: https://doi.org/10.1111/j.1468-2281.2011.00580.x
 - Bildhauer 2013 — DOI: https://doi.org/10.1111/1467-9655.12016
 - Garton 2019 — DOI: https://doi.org/10.1111/moth.12476
@@ -330,7 +330,7 @@ This slice is currently only an attributable Daily Slice research witness. It do
 
 - `deepens` → [Grammar of Creation](../../../../threads/grammar-of-creation.md)
 - `inherits` → [Green Grammar formation witness](../2026-09-16/hugh-jack-journal-green-grammar-refusal-to-collapse.md)
-- `inherits` → [What's in a Name?](../../../08/2026-08-27/we-didnt-know-what-to-call-this-whats-in-a-name.md)
+- `inherits` → [What's in a Name?](../../08/2026-08-27/we-didnt-know-what-to-call-this-whats-in-a-name.md)
 - `opens` → **THE NAME OF JESUS** National Treasure deep-dig
 - `proposes` → `relation inheritance without identity collapse`
 - `proposes` → `The Name may not be a password. It may be a relational position inside a provenance chain.`
