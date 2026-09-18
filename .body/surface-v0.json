@@ -1,0 +1,49 @@
+{
+  "schema": "body.surface/v0",
+  "organ": "daily-slice",
+  "owner": "the-static-collective/the-daily-slice",
+  "publication": {
+    "status": "owner-published",
+    "standard": "static-collective/body-surface/v0",
+    "scope": "interface-declaration"
+  },
+  "provides": [],
+  "needs": [],
+  "interfaces": [],
+  "measure": {
+    "declared": [
+      {
+        "dimension": "role",
+        "value": "chronological-public-witness",
+        "unit": "state"
+      },
+      {
+        "dimension": "authority-mode",
+        "value": "orientation-only",
+        "unit": "state"
+      }
+    ],
+    "observed": []
+  },
+  "receipts": [
+    {
+      "kind": "owner-contract",
+      "coordinate": "README.md"
+    }
+  ],
+  "residual_fog": [
+    "Daily Slice participates as a witness-layer organ but declares no machine handoff yet; publication here must not become source-project authority."
+  ],
+  "non_authorities": [
+    "published here != canonical in source project",
+    "slice != source authority",
+    "surface != promotion path"
+  ],
+  "evidence": [
+    {
+      "kind": "owner-readme",
+      "coordinate": "README.md"
+    }
+  ],
+  "authority": "none"
+}
