@@ -71,6 +71,30 @@ That is a research question, not a law.
 
 ## Anchor slices
 
+### 2026-09-17 — APERTURE
+
+[APERTURE — HOLD THE MEANINGS OPEN](../slices/2026/09/2026-09-17/aperture-hold-the-meanings-open.md)
+
+Refines the earlier `IDEA / FACT / RELATION` kernel by inserting a pre-semantic layer that preserves unresolved interpretive plurality:
+
+```text
+SIGNAL / CONTEXT / GAP
+        ↓
+bounded SENSE FIELD
+        ↓
+FACT / IDEA / RELATION
+```
+
+Composed with Iron Lung's `SUBSTANCE / LINEAGE / AUTHORITY` braid, this yields a candidate sparse 3×3×3 semantic address space. The thread does **not** promote that cube into ontology. Its useful pressure is narrower: retained difference may include **unresolved meaning itself**, and collapsing a sense field can destroy distinctions before a later lawful discriminator arrives.
+
+Working seals:
+
+> **AMBIGUITY IS INFORMATION.**
+
+> **POSSIBLE MEANING != INTENDED MEANING.**
+
+> **SEMANTIC ROLE != CONSTITUTIONAL POSTURE.**
+
 ### 2026-09-17 — National Treasure: The Name
 
 [NATIONAL TREASURE: THE NAME — Teaser Packet](../slices/2026/09/2026-09-17/national-treasure-teaser-the-name.md)
@@ -124,6 +148,8 @@ These roads are related by research pressure, not automatically by one ontology.
 - **DELTA** — attributable difference between lawful paths.
 - **RECURRENCE** — later re-entry of a carrier, projection, or delta.
 - **NON-COLLAPSE** — preservation of live distinctions rather than premature equivalence.
+- **APERTURE** — candidate pre-semantic cut that retains signal, attributable context, and unresolved gaps before semantic-role classification.
+- **SENSE FIELD** — bounded set of candidate readings retained in unresolved tension under one declared cut; availability does not establish human intent.
 - **CREATION** — reserved as a research term for the possible production of further structured possibility from retained difference; not yet a formal primitive.
 - **RESOLVER** — candidate term for a relation that makes a fact / target addressable through a name, trace, representation, provenance edge, or other declared identifier; does not itself establish causal reach.
 - **RELATION PROMOTION** — candidate term for a proposed operation by which a relation on a representation / carrier is claimed to become a relation on its referent; requires domain-specific admission and is not assumed lawful.
