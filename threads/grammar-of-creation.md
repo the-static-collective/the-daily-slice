@@ -71,6 +71,35 @@ That is a research question, not a law.
 
 ## Anchor slices
 
+### 2026-09-19 — DOORWAY-3 / The Third Position
+
+[EVERY DOORWAY WIDE ENOUGH FOR 3 — THE THIRD POSITION](../slices/2026/09/2026-09-19/every-doorway-wide-enough-for-3.md)
+
+Re-reads the thread's carrier / operator / relation pressure through an explicit crossing object:
+
+```text
+A --receive--> T_C --pour--> B
+                  ^
+                 hold
+```
+
+The candidate is that some consequential crossings should not remain an opaque `A -> B` arrow. The third position `T_C` preserves enough of source, destination, transformation, responsibility, witness, remainder, and receipt to make the crossing itself attributable. This does **not** assert that every relation requires reification or that every three-part analogy shares one ontology.
+
+The slice proposes two non-canonical research terms:
+
+- `DOORWAY-3` — preserve an explicit third position for consequential crossings between distinct particulars, contexts, or authority domains.
+- `nuR` — a relation made particular enough to bear provenance, responsibility, status, remainder, and receipts.
+
+Working seals:
+
+> **EVERY DOORWAY WIDE ENOUGH FOR 3.**
+
+> **TWO HANDS ON THE FRAME.**
+
+> **SENDER. RECEIVER. THE CROSSING MADE PARTICULAR.**
+
+> **HOLD IS THE THIRD POSITION.**
+
 ### 2026-09-17 — APERTURE
 
 [APERTURE — HOLD THE MEANINGS OPEN](../slices/2026/09/2026-09-17/aperture-hold-the-meanings-open.md)
@@ -153,6 +182,9 @@ These roads are related by research pressure, not automatically by one ontology.
 - **CREATION** — reserved as a research term for the possible production of further structured possibility from retained difference; not yet a formal primitive.
 - **RESOLVER** — candidate term for a relation that makes a fact / target addressable through a name, trace, representation, provenance edge, or other declared identifier; does not itself establish causal reach.
 - **RELATION PROMOTION** — candidate term for a proposed operation by which a relation on a representation / carrier is claimed to become a relation on its referent; requires domain-specific admission and is not assumed lawful.
+- **THIRD POSITION** — candidate explicit crossing state / object between distinct endpoints; useful when a direct arrow would hide provenance, responsibility, standing, remainder, or transformation.
+- **DOORWAY-3** — candidate rule that consequential crossings preserve an attributable third position rather than silently collapsing source into destination.
+- **nuR** — candidate relation particularization: a relation represented strongly enough to bear provenance, responsibility, status, remainder, and receipts; not an assertion that every edge is an independent entity.
 
 ## Promotion gates
 
