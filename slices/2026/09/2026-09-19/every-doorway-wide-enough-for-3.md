@@ -261,7 +261,7 @@ The candidate survivor is not a verdict about either story:
 - 2026-09-19 conversation: responsibility-before-capability -> causal cone -> ridge / pass / bridge -> fault line -> doorway / three-position reread.
 - [THE 13TH CUP — RECEIVE, HOLD, POUR](../../../08/2026-08-27/the-13th-cup-receive-hold-pour.md)
 - [APERTURE — HOLD THE MEANINGS OPEN](../2026-09-17/aperture-hold-the-meanings-open.md)
-- [Grammar of Creation thread](../../../../../threads/grammar-of-creation.md)
+- [Grammar of Creation thread](../../../../threads/grammar-of-creation.md)
 
 ## Epistemic split
 
@@ -282,7 +282,7 @@ The candidate survivor is not a verdict about either story:
 
 ## Threads touched
 
-- [Grammar of Creation](../../../../../threads/grammar-of-creation.md)
+- [Grammar of Creation](../../../../threads/grammar-of-creation.md)
 - RECEIVE / HOLD / POUR
 - APERTURE
 - relation birth / causal line
@@ -317,7 +317,7 @@ Strongest likely future homes if pressure survives:
 
 - `deepens` -> [THE 13TH CUP — RECEIVE, HOLD, POUR](../../../08/2026-08-27/the-13th-cup-receive-hold-pour.md)
 - `deepens` -> [APERTURE — HOLD THE MEANINGS OPEN](../2026-09-17/aperture-hold-the-meanings-open.md)
-- `threads` -> [Grammar of Creation](../../../../../threads/grammar-of-creation.md)
+- `threads` -> [Grammar of Creation](../../../../threads/grammar-of-creation.md)
 - `candidate_for` -> Dogram responsibility / composition formalization
 - `candidate_for` -> ALEX / LOADOUT threshold semantics
 
