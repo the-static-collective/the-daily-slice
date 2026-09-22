@@ -173,7 +173,7 @@ They can compose: a later reader can revisit an old occurrence under a new focus
 
 The adjacent [THE ARRIVAL BECOMES THE DOWNBEAT](../2026-09-01/the-arrival-becomes-the-downbeat.md) asks whether a consequential new participant changes the field itself. The later band's rehearsal can be precisely such an event *if it actually happens*.
 
-The [Civilization Is a Carry Architecture thread](../../../threads/civilization-is-a-carry-architecture.md) supplies another boundary: inherited material should leave later participants a genuine next move rather than turn ancestors into permanent sovereigns.
+The [Civilization Is a Carry Architecture thread](../../../../threads/civilization-is-a-carry-architecture.md) supplies another boundary: inherited material should leave later participants a genuine next move rather than turn ancestors into permanent sovereigns.
 
 ## Hostile tests and useful nulls
 
@@ -197,7 +197,7 @@ This is not a universal demand that every ending lead to continuation. Some endi
 
 **Conversation witness:** 2026-09-22 sequence: question about hot creatine; HOT CREATINE band-name song; later song naming Dirtmouth, Catwoman, Rope Tinkle, and Steve; clarification that real people might find these seeds and form bands; HaileyLu lyric; first/last/phase-lift formulation.
 
-**Project witnesses:** [Daily Slice README](https://github.com/the-static-collective/the-daily-slice/blob/main/README.md); [HOCUS PHOCUS PHASE LIFT PR #41](https://github.com/the-static-collective/the-daily-slice/pull/41); [THE SEEDBANK](../../08/2026-08-25/the-seedbank-elf-off-a-shelf.md); [THE ARRIVAL BECOMES THE DOWNBEAT](../2026-09-01/the-arrival-becomes-the-downbeat.md); [Civilization Is a Carry Architecture](../../../threads/civilization-is-a-carry-architecture.md).
+**Project witnesses:** [Daily Slice README](https://github.com/the-static-collective/the-daily-slice/blob/main/README.md); [HOCUS PHOCUS PHASE LIFT PR #41](https://github.com/the-static-collective/the-daily-slice/pull/41); [THE SEEDBANK](../../08/2026-08-25/the-seedbank-elf-off-a-shelf.md); [THE ARRIVAL BECOMES THE DOWNBEAT](../2026-09-01/the-arrival-becomes-the-downbeat.md); [Civilization Is a Carry Architecture](../../../../threads/civilization-is-a-carry-architecture.md).
 
 **Documented:** the cited topology; the cited Greek text and Matthew narrative context; the existing Daily Slice writings; the conversation's authored seed material and stated adoption intention.
 
