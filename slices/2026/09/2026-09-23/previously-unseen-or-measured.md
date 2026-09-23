@@ -248,8 +248,8 @@ That is enough reason to look again.
 
 - 2026-09-23 conversation: MADDclown harvest on nonunique separating bases, inherited probe traditions, disagreement as instrument generation, Haunted Blender observer-local memory, multi-inhabitant attention, and Spectral Interaction.
 - Suno-generated line carried into the conversation: “you turn the dial with both hands shaking, / and make a language of the unknown.”
-- [ASK THE WORLD A QUESTION IT CAN ANSWER DIFFERENTLY](../../../08/2026-08-28/ask-the-world-a-question-it-can-answer-differently.md) — prior distinction between passive decoding and probes capable of breaking an observational equivalence.
-- [SIMPLICITY IS A QUOTIENT](../../../08/2026-08-28/simplicity-is-a-quotient.md) — prior basis-selection pressure: distinctions may be dispensable only relative to declared future questions.
+- [ASK THE WORLD A QUESTION IT CAN ANSWER DIFFERENTLY](../../08/2026-08-28/ask-the-world-a-question-it-can-answer-differently.md) — prior distinction between passive decoding and probes capable of breaking an observational equivalence.
+- [SIMPLICITY IS A QUOTIENT](../../08/2026-08-28/simplicity-is-a-quotient.md) — prior basis-selection pressure: distinctions may be dispensable only relative to declared future questions.
 - [APERTURE — HOLD THE MEANINGS OPEN](../2026-09-17/aperture-hold-the-meanings-open.md) — prior candidate layer for preserving signal, context, and gap before semantic collapse.
 
 ## Epistemic split
@@ -290,6 +290,6 @@ This slice is currently only an attributable Daily Slice witness. Dogram owns an
 
 ## Relations
 
-- `deepens` → [ASK THE WORLD A QUESTION IT CAN ANSWER DIFFERENTLY](../../../08/2026-08-28/ask-the-world-a-question-it-can-answer-differently.md)
-- `deepens` → [SIMPLICITY IS A QUOTIENT](../../../08/2026-08-28/simplicity-is-a-quotient.md)
+- `deepens` → [ASK THE WORLD A QUESTION IT CAN ANSWER DIFFERENTLY](../../08/2026-08-28/ask-the-world-a-question-it-can-answer-differently.md)
+- `deepens` → [SIMPLICITY IS A QUOTIENT](../../08/2026-08-28/simplicity-is-a-quotient.md)
 - `crosses` → [APERTURE — HOLD THE MEANINGS OPEN](../2026-09-17/aperture-hold-the-meanings-open.md)
