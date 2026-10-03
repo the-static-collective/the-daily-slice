@@ -1,0 +1,33 @@
+{
+  "schema": "newsie-scout-checkpoint-v0",
+  "run_date": "2026-10-03",
+  "comparison_window": {
+    "kind": "bootstrap",
+    "reason": "No prior durable Newsie Scout / Curiosity Thread Scout checkpoint found in the-daily-slice; this run establishes the first durable lower bound."
+  },
+  "inspected": {
+    "the-static-collective/reLATTE": {
+      "main": "3128324f9d9a71574d5ee1684fe1b0da24675496",
+      "observed_branch": "experiment/physical-custody-power-split-001"
+    },
+    "the-static-collective/lemonPRESS": {
+      "observed_branch": "forage/letters-not-shared-memory-001"
+    },
+    "the-static-collective/revival": {
+      "observed_branch": "revival-013-pilgrim-door"
+    },
+    "the-static-collective/the-daily-slice": {
+      "prior_checkpoint": null
+    },
+    "the-static-collective/national-treasure": {
+      "main": "a6f1533537f88e837ba1560731d23645676a5b52"
+    }
+  },
+  "daily_slice": "slices/2026/10/2026-10-03/the-heap-started-leaving-receipts.md",
+  "national_treasure": null,
+  "intrigue_gate": "HOLD",
+  "blind_spots": [
+    "GitBook and Google Drive were not exhaustively scanned in this bootstrap; GitHub supplied the attributable delta used for the durable.",
+    "Branch existence was verified; branch-only state is not treated as landed main authority."
+  ]
+}
