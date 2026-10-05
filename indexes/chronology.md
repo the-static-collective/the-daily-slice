@@ -4,6 +4,10 @@ A manual index of Daily Slice issues. This index is a navigation aid, not a cano
 
 ## 2026
 
+### October
+
+- [2026-10-05 — THE CHARTER UNDER THE BELL — 1701 ALL THE WAY DOWN](../slices/2026/10/2026-10-05/the-charter-under-the-bell-1701-all-the-way-down.md) — A response to National Treasure's Jubilee-quarter clue follows the Liberty Bell downward into the 1701 Charter of Privileges and then farther back through Penn's 1670 conscience fights, the 1687 portable English-liberties corpus, constitutional friction, and the 1696 Markham Frame. The Charter emerges not as a serene gift but as a pressured transfer of governing capacity: elected Assembly power, an especially hardened conscience clause, a lawful Province/Lower-Counties legislative fork later exercised by Delaware, and a surprising estate non-forfeiture rule after suicide or accidental death. The slice preserves the harder contradiction that Penn's liberty project coexisted with slavery and bounded religious/political inclusion, and keeps the 1751 golden-anniversary motive for the Bell's Leviticus 25:10 inscription open pending a direct Norris/Assembly receipt. Working seal: **THE CHARTER WAS A FIGHT ABOUT WHETHER LIBERTY COULD OUTLIVE THE HAND THAT GRANTED IT.**
+
 ### September
 
 - [2026-09-25 — HJJ044 — THE TRAIN THAT CAN BACK UP WITHOUT MAKING THE PAST MOVE](../slices/2026/09/2026-09-25/hjj044-the-train-that-can-back-up-without-making-the-past-move.md) — HughJackJournal 044 runs a two-engine traversal: Daily Slice forward as formation, National Treasure backward as provenance, and noncanon/fanon sideways as bounded creative rail. The ride preserves the ticket-punch image — **“He punches a hole in mine. The hole is shaped like a relation.”** — then returns to it only after the relation has accumulated history, carry, and provenance weight. Governing law: **THE TRAIN MAY REVERSE. THE TIMESTAMPS MAY NOT.** Working compression: **FORWARD = FORMATION · BACKWARD = PROVENANCE · SIDEWAYS = CREATION WITHOUT FORCED PROMOTION.**
