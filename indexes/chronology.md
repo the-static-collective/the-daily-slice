@@ -4,6 +4,10 @@ A manual index of Daily Slice issues. This index is a navigation aid, not a cano
 
 ## 2026
 
+### October
+
+- [2026-10-22 — THE $1.61 CUP — FOR THE PLEEBs](../slices/2026/10/2026-10-22/the-161-cup-for-the-pleebs.md) — A firsthand Caribou Coffee checkout report says a single espresso over ice with cream cost **$1.61 out the door**. The reusable contribution is the order phrasing; price and Perks eligibility remain unverified beyond the person's report. **SHARE THE RECEIPT; KEEP THE QUALIFIERS.**
+
 ### September
 
 - [2026-09-25 — HJJ044 — THE TRAIN THAT CAN BACK UP WITHOUT MAKING THE PAST MOVE](../slices/2026/09/2026-09-25/hjj044-the-train-that-can-back-up-without-making-the-past-move.md) — HughJackJournal 044 runs a two-engine traversal: Daily Slice forward as formation, National Treasure backward as provenance, and noncanon/fanon sideways as bounded creative rail. The ride preserves the ticket-punch image — **“He punches a hole in mine. The hole is shaped like a relation.”** — then returns to it only after the relation has accumulated history, carry, and provenance weight. Governing law: **THE TRAIN MAY REVERSE. THE TIMESTAMPS MAY NOT.** Working compression: **FORWARD = FORMATION · BACKWARD = PROVENANCE · SIDEWAYS = CREATION WITHOUT FORCED PROMOTION.**
